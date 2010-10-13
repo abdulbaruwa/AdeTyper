@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="405a33f5-4b48-47f6-9153-f548db780ca0" name="abdulrahaman@WIN7-64-V8 2010-10-04 22:08:06" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-10-04 22_08_06" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-04T22:08:06.0090000+01:00" queuing="2010-10-04T22:08:06.2710000+01:00" start="2010-10-04T22:08:06.4500000+01:00" finish="2010-10-04T22:08:06.8180000+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldCompareTheTypedCharAgainstTheCurrentLetterOfTheCurrentWord" storage="d:\development\ademolatyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="ee9a7b44-13f2-1479-7ecb-b3fb92e29b85">
+      <Execution timeOut="1800000" id="de1fad70-757d-432a-b335-c3c078f21c83" />
+      <TestMethod codeBase="D:/Development/AdemolaTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldCompareTheTypedCharAgainstTheCurrentLetterOfTheCurrentWord" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ee9a7b44-13f2-1479-7ecb-b3fb92e29b85" executionId="de1fad70-757d-432a-b335-c3c078f21c83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="de1fad70-757d-432a-b335-c3c078f21c83" testId="ee9a7b44-13f2-1479-7ecb-b3fb92e29b85" testName="ShouldCompareTheTypedCharAgainstTheCurrentLetterOfTheCurrentWord" computerName="WIN7-64-V8" duration="00:00:00.0963716" startTime="2010-10-04T22:08:06.5810000+01:00" endTime="2010-10-04T22:08:06.7450000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de1fad70-757d-432a-b335-c3c078f21c83">
+    </UnitTestResult>
+  </Results>
+</TestRun>

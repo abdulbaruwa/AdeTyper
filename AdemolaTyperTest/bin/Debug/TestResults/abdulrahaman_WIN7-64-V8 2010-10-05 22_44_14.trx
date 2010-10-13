@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e7dfcf30-ee36-4d25-a91d-28b9d84d4e18" name="abdulrahaman@WIN7-64-V8 2010-10-05 22:44:14" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-10-05 22_44_14" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-05T22:44:14.5490000+01:00" queuing="2010-10-05T22:44:14.8560000+01:00" start="2010-10-05T22:44:15.1360000+01:00" finish="2010-10-05T22:44:15.8660000+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_Switch_To_Next_Word_In_List_When_The_Number_Of_Letters_Typed_exceeds_letters_in_the_current_word" storage="d:\development\ademolatyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="13b28c05-1fee-a3b1-fb4a-33ca6e7454bb">
+      <Execution timeOut="1800000" id="3752c01d-4239-4623-a14f-26cb86f83e8d" />
+      <TestMethod codeBase="D:/Development/AdemolaTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Switch_To_Next_Word_In_List_When_The_Number_Of_Letters_Typed_exceeds_letters_in_the_current_word" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13b28c05-1fee-a3b1-fb4a-33ca6e7454bb" executionId="3752c01d-4239-4623-a14f-26cb86f83e8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3752c01d-4239-4623-a14f-26cb86f83e8d" testId="13b28c05-1fee-a3b1-fb4a-33ca6e7454bb" testName="Should_Switch_To_Next_Word_In_List_When_The_Number_Of_Letters_Typed_exceeds_letters_in_the_current_word" computerName="WIN7-64-V8" duration="00:00:00.2993392" startTime="2010-10-05T22:44:15.4360000+01:00" endTime="2010-10-05T22:44:15.7920000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3752c01d-4239-4623-a14f-26cb86f83e8d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;AdemolaTyper.ViewModels.WordViewModel&gt;. Actual:&lt;AdemolaTyper.ViewModels.WordViewModel&gt;. </Message>
+          <StackTrace>   at AdemolaTyperTest.ViewModels.WordViewModelTests.Should_Switch_To_Next_Word_In_List_When_The_Number_Of_Letters_Typed_exceeds_letters_in_the_current_word() in D:\Development\AdemolaTyper\AdemolaTyperTest\ViewModels\WordViewModelTests.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

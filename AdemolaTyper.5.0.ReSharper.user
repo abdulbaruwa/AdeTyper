@@ -1,0 +1,353 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="188" fromTop="1" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Control/f:TyperPanel.cs" caret="145" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:WordView.xaml.cs" caret="133" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:CommandViewModel.cs" caret="263" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Control/f:WordPanel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:WordView.xaml" caret="646" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="90" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Converters/f:BoolToFontColourConverter.cs" caret="461" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypeFaceView.xaml" caret="521" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeFaceViewModel.cs" caret="222" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeData.cs" caret="538" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Commands/f:RelayCommand.cs" caret="1926" fromTop="23" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelBase.cs" caret="2802" fromTop="31" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="2193" fromTop="20" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="2600" fromTop="29" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml.cs" caret="623" fromTop="23" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="914" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml.cs" caret="336" fromTop="13" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="2516" fromTop="29" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="4419" fromTop="149" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="702" fromTop="17" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="7" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="2396" fromTop="27" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml.cs" caret="623" fromTop="23" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="2" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="59" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="3329" fromTop="39" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="2389" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="2964" fromTop="46" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="546" fromTop="15" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="718" fromTop="21" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="1336" fromTop="36" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="162" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="1810" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="41" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="17" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="2206" fromTop="60" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="49" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="2689" fromTop="31" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="2454" fromTop="18" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="2581" fromTop="22" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="26" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="27" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5554" fromTop="185" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="914" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="4991" fromTop="56" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="5262" fromTop="31" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="4419" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="internal" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="int" priority="10" />
+      <Item value="ViewModelBase`0" priority="3" />
+      <Item value="ViewModels" priority="0" />
+      <Item value="public" priority="13" />
+      <Item value="char" priority="4" />
+      <Item value="return" priority="24" />
+      <Item value="_letter" priority="0" />
+      <Item value="value" priority="13" />
+      <Item value="OnPropertyChanged`0" priority="13" />
+      <Item value="TypeFaceViewModel`0" priority="1" />
+      <Item value="_letters" priority="1" />
+      <Item value="WordViewModel`0" priority="9" />
+      <Item value="_words" priority="2" />
+      <Item value="override" priority="14" />
+      <Item value="var" priority="22" />
+      <Item value="new" priority="36" />
+      <Item value="MainWindow`0" priority="4" />
+      <Item value="viewModel" priority="29" />
+      <Item value="ObservableCollection&lt;WordViewModel&gt;" priority="2" />
+      <Item value="void" priority="0" />
+      <Item value="ObservableCollection" priority="2" />
+      <Item value="result" priority="2" />
+      <Item value="WordViewModel" priority="2" />
+      <Item value="Random`0" priority="5" />
+      <Item value="foreach" priority="2" />
+      <Item value="wordLength" priority="3" />
+      <Item value="for" priority="5" />
+      <Item value="Char`0" priority="2" />
+      <Item value="start" priority="0" />
+      <Item value="if" priority="26" />
+      <Item value="i" priority="0" />
+      <Item value="alphabets" priority="1" />
+      <Item value="random" priority="3" />
+      <Item value="Random" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="wordViewModel" priority="7" />
+      <Item value="TypeFaceViewModel" priority="3" />
+      <Item value="letter" priority="3" />
+      <Item value="paragraphLength" priority="0" />
+      <Item value="Main`0" priority="0" />
+      <Item value="mainWindow" priority="1" />
+      <Item value="ObservableCollection&lt;TypeFaceViewModel&gt;" priority="1" />
+      <Item value="spaceLetter" priority="1" />
+      <Item value="spaceWord" priority="4" />
+      <Item value="lock" priority="0" />
+      <Item value="null" priority="4" />
+      <Item value="protected" priority="0" />
+      <Item value="visualAdded" priority="1" />
+      <Item value="as" priority="3" />
+      <Item value="ContentPresenter`0" priority="0" />
+      <Item value="contentPresenter" priority="6" />
+      <Item value="word" priority="6" />
+      <Item value="SetLeft`0" priority="0" />
+      <Item value="private" priority="6" />
+      <Item value="double" priority="4" />
+      <Item value="base" priority="2" />
+      <Item value="_currentLeft" priority="2" />
+      <Item value="w" priority="0" />
+      <Item value="ActualWidth" priority="2" />
+      <Item value="_totalWordWidth" priority="0" />
+      <Item value="_totalWordwWidth" priority="4" />
+      <Item value="horizontalOffset" priority="0" />
+      <Item value="vm" priority="2" />
+      <Item value="letters" priority="2" />
+      <Item value="wordWith" priority="1" />
+      <Item value="SetTop`0" priority="0" />
+      <Item value="CalculateLeft`0" priority="0" />
+      <Item value="_currentRow" priority="3" />
+      <Item value="ActualHeight" priority="0" />
+      <Item value="vertOffset" priority="0" />
+      <Item value="oldValue" priority="0" />
+      <Item value="_fontSize" priority="1" />
+      <Item value="TypeFaceFontSize" priority="0" />
+      <Item value="fontSize" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="tm" priority="12" />
+      <Item value="TextBlock`0" priority="0" />
+      <Item value="words" priority="0" />
+      <Item value="Letters" priority="3" />
+      <Item value="e" priority="3" />
+      <Item value="SetBinding`0" priority="0" />
+      <Item value="sender" priority="2" />
+      <Item value="object" priority="1" />
+      <Item value="mainwindow" priority="1" />
+      <Item value="mainwindowViewModel" priority="2" />
+      <Item value="DesignData" priority="0" />
+      <Item value="DesignTimeData`0" priority="2" />
+      <Item value="StackPanel`0" priority="2" />
+      <Item value="UserControl`0" priority="0" />
+      <Item value="Stack" priority="0" />
+      <Item value="arrangeSize" priority="1" />
+      <Item value="lastRenderedSize" priority="1" />
+      <Item value="_keyPressReceivedCommand" priority="1" />
+      <Item value="Key`0" priority="0" />
+      <Item value="param" priority="2" />
+      <Item value="Object`0" priority="0" />
+      <Item value="_typedLetter" priority="0" />
+      <Item value="TypedLetter" priority="0" />
+      <Item value="ICommand`0" priority="1" />
+      <Item value="_processStartCommand" priority="1" />
+      <Item value="RelayCommand`0" priority="1" />
+      <Item value="ProcessStart" priority="2" />
+      <Item value="_processStartTimethrow" priority="0" />
+      <Item value="TestClass" priority="0" />
+      <Item value="_processStartTime" priority="0" />
+      <Item value="DateTime`0" priority="4" />
+      <Item value="_currentWorkd" priority="3" />
+      <Item value="Version`0" priority="0" />
+      <Item value="_currentLetterIndex" priority="2" />
+      <Item value="CurrentLetterIndex" priority="1" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="firstLetterOfFirstWord" priority="0" />
+      <Item value="_currentLetter" priority="0" />
+      <Item value="CurrentWord" priority="5" />
+      <Item value="key" priority="0" />
+      <Item value="_wordTyped" priority="1" />
+      <Item value="WordTyped" priority="0" />
+      <Item value="letterTyped" priority="3" />
+      <Item value="CurrentLetter" priority="2" />
+      <Item value="CommandConverter`0" priority="0" />
+      <Item value="true" priority="3" />
+      <Item value="_isTypedRight" priority="0" />
+      <Item value="Words" priority="6" />
+      <Item value="Boolean`0" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="state" priority="0" />
+      <Item value="case" priority="1" />
+      <Item value="System" priority="5" />
+      <Item value="Windows" priority="3" />
+      <Item value="Media" priority="3" />
+      <Item value="Brush`0" priority="1" />
+      <Item value="BoolToFontColourConverter`0" priority="0" />
+      <Item value="Brushes`0" priority="2" />
+      <Item value="default" priority="0" />
+      <Item value="SolidColorBrush`0" priority="0" />
+      <Item value="else" priority="1" />
+      <Item value="currentWordLenght" priority="0" />
+      <Item value="_isComplete" priority="0" />
+      <Item value="IsComplete" priority="1" />
+      <Item value="MainViewModel`0" priority="2" />
+      <Item value="_mainViewModel" priority="3" />
+      <Item value="_currentWordIsProcessed" priority="3" />
+      <Item value="CurrentWordIsProcessed" priority="0" />
+      <Item value="mainViewModel" priority="3" />
+      <Item value="MainViewModel" priority="0" />
+      <Item value="MainViewModelTests`0" priority="0" />
+      <Item value="wordToAdd" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="_currentWordIndex" priority="0" />
+      <Item value="CurrentWordIndex" priority="2" />
+      <Item value="initializeDummyData" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="Linq" priority="1" />
+      <Item value="Expressions" priority="1" />
+      <Item value="AddWord`0" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="ProcessCompleted" priority="2" />
+      <Item value="false" priority="0" />
+      <Item value="total" priority="0" />
+      <Item value="ProcessStartTime" priority="3" />
+      <Item value="minutesTaken" priority="0" />
+      <Item value="WordsPerMinute" priority="0" />
+      <Item value="seconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.MainViewModel">
+      <Item value="Words" priority="9" />
+      <Item value="KeyPressReceivedCommand" priority="5" />
+      <Item value="ProcessStart" priority="2" />
+      <Item value="CurrentWord" priority="5" />
+      <Item value="TypedLetter" priority="1" />
+      <Item value="CurrentLetterIndex" priority="2" />
+      <Item value="AddWord`0" priority="2" />
+      <Item value="CurrentWordIsProcessed" priority="0" />
+      <Item value="CurrentWordIndex" priority="0" />
+      <Item value="AddWords`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="9" />
+      <Item value="Count" priority="10" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="Sum`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.WordViewModel">
+      <Item value="Letters" priority="14" />
+      <Item value="WordHeight" priority="1" />
+      <Item value="IsComplete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.MainWindow">
+      <Item value="DataContext" priority="1" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ContentPresenter">
+      <Item value="DataContext" priority="0" />
+      <Item value="Width" priority="1" />
+      <Item value="ActualWidth" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Canvas">
+      <Item value="ActualWidth" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.TypeFaceViewModel">
+      <Item value="Letter" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyboardDevice">
+      <Item value="Modifiers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyEventArgs">
+      <Item value="Key" priority="1" />
+      <Item value="SystemKey" priority="0" />
+      <Item value="InputSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AdemolaTyper.DesignData.DesignTimeData">
+      <Item value="InitializeDummyData`0" priority="1" />
+      <Item value="GetRandomWord`0" priority="0" />
+      <Item value="GetSpaceLetterWord`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.ICommand">
+      <Item value="Execute`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.TextCompositionEventArgs">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsNotNull`0" priority="1" />
+      <Item value="IsTrue`0" priority="4" />
+      <Item value="AreEqual`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToChar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Brushes">
+      <Item value="AliceBlue" priority="0" />
+      <Item value="OrangeRed" priority="1" />
+      <Item value="Black" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.SolidColorBrush">
+      <Item value="ColorProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="HasValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Subtract`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalMinutes" priority="1" />
+      <Item value="Seconds" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

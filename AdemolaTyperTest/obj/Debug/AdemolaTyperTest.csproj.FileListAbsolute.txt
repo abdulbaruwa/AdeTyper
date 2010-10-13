@@ -1,0 +1,14 @@
+D:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.dll
+D:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.pdb
+D:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.exe
+D:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.pdb
+D:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.dll
+D:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.pdb
+C:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.dll
+C:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.pdb
+C:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.exe
+C:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.pdb
+C:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.dll
+C:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.pdb

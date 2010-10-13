@@ -1,0 +1,17 @@
+<Configuration>
+  <SharedSolutionTemplateManager>
+    <LiveTemplates>
+      <Template uid="ac003d07-adc7-41c0-b3eb-dc75069e3dac" shortcut="tm" description="Test Method" text="[TestMethod]&#xD;&#xA;public void $MethodName$()&#xD;&#xA;{&#xD;&#xA;	$end$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+        <Context>
+          <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+        </Context>
+        <Categories />
+        <Variables>
+          <Variable name="MethodName" expression="" initialRange="0" />
+          <Variable name="end" expression="" initialRange="0" />
+        </Variables>
+        <CustomProperties />
+      </Template>
+    </LiveTemplates>
+  </SharedSolutionTemplateManager>
+</Configuration>
