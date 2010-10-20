@@ -67,6 +67,7 @@
     <Compile Include="DesignData\DesignTimeData.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\TypeFaceViewModel.cs" />
+    <Compile Include="ViewModels\TypingCompleteViewModel.cs" />
     <Compile Include="Views\MenuView.xaml.cs">
       <DependentUpon>MenuView.xaml</DependentUpon>
     </Compile>

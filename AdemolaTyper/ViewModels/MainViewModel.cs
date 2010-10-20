@@ -8,6 +8,7 @@ namespace AdemolaTyper.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
+        private readonly Timer _timer = new Timer();
         private WordViewModel _currentWord;
         private int _currentWordIndex;
         private RelayCommand _currentWordIsProcessed;
@@ -16,7 +17,7 @@ namespace AdemolaTyper.ViewModels
         private RelayCommand _processStartCommand;
         private DateTime? _processStartTime;
         private string _typedLetter;
-
+        private TypingCompleteViewModel _typingComplete;
         private ObservableCollection<WordViewModel> _words;
         private int _wordsPerMinute;
 
@@ -35,6 +36,16 @@ namespace AdemolaTyper.ViewModels
             {
                 _words = value;
                 OnPropertyChanged("Words");
+            }
+        }
+
+        public TypingCompleteViewModel TypingComplete
+        {
+            get { return _typingComplete; }
+            set
+            {
+                _typingComplete = value;
+                OnPropertyChanged("TypingComplete");
             }
         }
 
@@ -139,8 +150,6 @@ namespace AdemolaTyper.ViewModels
             }
         }
 
-      private  Timer _timer = new Timer();
-      
 
         private void CurrentWordIsProcessedAction()
         {
@@ -185,26 +194,26 @@ namespace AdemolaTyper.ViewModels
             {
                 if (ProcessStartTime.HasValue && CurrentWordIndex > 0)
                 {
-                    var elapsedSeconds = new TimeSpan( DateTime.Now.Ticks - ((DateTime) ProcessStartTime).Ticks).TotalSeconds;
-                    var time = DateTime.Now - ProcessStartTime;
+                    double elapsedSeconds =
+                        new TimeSpan(DateTime.Now.Ticks - ((DateTime) ProcessStartTime).Ticks).TotalSeconds;
+                    TimeSpan? time = DateTime.Now - ProcessStartTime;
 
-                    var seconds = Convert.ToDecimal(elapsedSeconds);
+                    decimal seconds = Convert.ToDecimal(elapsedSeconds);
                     if (seconds > 0)
                     {
                         //WordsPerMinute = Convert.ToInt16(60 / ( seconds / Convert.ToDecimal(CurrentWordIndex)));
-                        var tempvalue = Convert.ToInt32(Convert.ToDecimal(CurrentWordIndex/2)/seconds*60);
-                        if(tempvalue > 100) tempvalue = 100;
+                        int tempvalue = Convert.ToInt32(Convert.ToDecimal(CurrentWordIndex/2)/seconds*60);
+                        if (tempvalue > 100) tempvalue = 100;
                         WordsPerMinute = tempvalue;
-                    }                    
+                    }
                 }
             }
         }
 
         private void keyPressed(Object key)
         {
-            
             if (ProcessCompleted) return;
-            if(! ProcessStartTime.HasValue)
+            if (! ProcessStartTime.HasValue)
             {
                 ProcessStartTime = DateTime.Now;
             }

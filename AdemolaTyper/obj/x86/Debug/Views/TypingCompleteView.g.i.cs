@@ -9,10 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AdemolaTyper;
-using AdemolaTyper.Converters;
-using AdemolaTyper.ViewModels;
-using AdemolaTyper.Views;
 using System;
 using System.Diagnostics;
 using System.Windows;
