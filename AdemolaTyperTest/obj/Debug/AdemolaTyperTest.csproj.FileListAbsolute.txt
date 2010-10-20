@@ -12,6 +12,13 @@ C:\Development\AdemolaTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.pdb
 C:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\ResolveAssemblyReference.cache
 C:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.dll
 C:\Development\AdemolaTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.pdb
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.dll
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.pdb
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\bin\Debug\AdemolaTyper.exe
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\bin\Debug\AdemolaTyper.pdb
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.dll
+C:\Dev\abdulbaruwa-AdeTyper-4ca7ca0\abdulbaruwa-AdeTyper-4ca7ca0\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.pdb
 D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.dll
 D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\bin\Debug\AdemolaTyperTest.pdb
 D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.exe

@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="AdemolaTyper.Views.TypingCompleteView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"              >
+    <Border Background="#FF1C385C"  Name="MessageBlockControlBorder" BorderThickness="2" BorderBrush="gray" CornerRadius="20,6,20,6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="100" MinWidth="300" MaxWidth="300" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <TextBlock  Margin="17,15,14,15" Canvas.Left="0"  Name="MessageBlockControlTextBox" FontWeight="Normal"  FontSize="13" Text="{Binding ErrorMessage, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap">
+            	<TextBlock.Foreground>
+            		<SolidColorBrush Color="LightGray"/>
+            	</TextBlock.Foreground>
+            </TextBlock>
+            <StackPanel Margin="100,3,100,3" Orientation="Horizontal" Grid.Row="1">
+                <Button Command="{Binding IsVisible}" IsCancel="True" Focusable="False">Ok</Button>
+                <Button Command="{Binding IsVisible}" IsCancel="True" Focusable="False">Try Again?</Button>
+            </StackPanel>
+            
+        </Grid>
+    </Border>
+</UserControl>

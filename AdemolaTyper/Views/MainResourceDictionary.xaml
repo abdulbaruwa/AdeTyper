@@ -7,5 +7,39 @@
         <Views:TypeFaceView></Views:TypeFaceView>
     </DataTemplate>
 
+    <Style TargetType="Border" x:Key="WordActive">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=StartAnimation}" Value="true">
+                <DataTrigger.EnterActions>
+                    <StopStoryboard BeginStoryboardName="InactiveWordAnimation" />
+                    <BeginStoryboard Name="CurrentWordAnimation">
+                        <Storyboard>
+                            <ColorAnimation Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" To="#FF99C1E2" Duration="0:0:1"/>
+                            <!--<ThicknessAnimation Storyboard.TargetProperty="BorderThickness" FillBehavior="HoldEnd" From="0,1,0,0" To="1,1,1,1" Duration="0:0:1"/>-->
+                        </Storyboard>
+                    </BeginStoryboard>
+                </DataTrigger.EnterActions>
+                <DataTrigger.ExitActions>
+
+                </DataTrigger.ExitActions>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=StartAnimation}" Value="false">
+                <DataTrigger.EnterActions>
+                    <StopStoryboard BeginStoryboardName="CurrentWordAnimation" />
+                    <BeginStoryboard Name="InactiveWordAnimation">
+                        <Storyboard>
+                            <ColorAnimation Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" To="Transparent" Duration="0:0:1"/>
+                            <!--<ColorAnimation  Storyboard.TargetProperty="BorderBrush" From="Fuchsia" To="Transparent" Duration="0:0:1"/>-->
+                            <!--<ThicknessAnimation Storyboard.TargetProperty="BorderThickness" FillBehavior="HoldEnd"  From="1,1,1,1" To="0,1,0,0" Duration="0:0:1"/>-->
+                        </Storyboard>
+                    </BeginStoryboard>
+                </DataTrigger.EnterActions>
+                <DataTrigger.ExitActions>
+
+                </DataTrigger.ExitActions>
+            </DataTrigger>
+
+        </Style.Triggers>
+    </Style>
 
 </ResourceDictionary>

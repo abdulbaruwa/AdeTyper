@@ -1,5 +1,6 @@
 using System;
 using System.Collections.ObjectModel;
+using System.Timers;
 using System.Windows.Input;
 using AdemolaTyper.Commands;
 
@@ -138,22 +139,27 @@ namespace AdemolaTyper.ViewModels
             }
         }
 
+      private  Timer _timer = new Timer();
+      
+
         private void CurrentWordIsProcessedAction()
         {
             if (CurrentWordIndex != Words.Count - 1)
             {
-                if (ProcessStartTime.HasValue && CurrentWordIndex > 0)
-                {
-                    decimal seconds = DateTime.Now.Subtract(((DateTime) ProcessStartTime)).Seconds;
-                    if (seconds > 0)
-                    {
-                        //WordsPerMinute = Convert.ToInt16(60 / ( seconds / Convert.ToDecimal(CurrentWordIndex)));
-                        WordsPerMinute = Convert.ToInt16(Convert.ToDecimal(CurrentWordIndex)/seconds*60);
+                //if (ProcessStartTime.HasValue && CurrentWordIndex > 0)
+                //{
+                //    decimal seconds = DateTime.Now.Subtract(((DateTime) ProcessStartTime)).Seconds;
+                //    if (seconds > 0)
+                //    {
+                //        //WordsPerMinute = Convert.ToInt16(60 / ( seconds / Convert.ToDecimal(CurrentWordIndex)));
+                //        WordsPerMinute = Convert.ToInt16(Convert.ToDecimal(CurrentWordIndex)/seconds*60);
 
-                    }                    
-                }
+                //    }                    
+                //}
                 CurrentWordIndex++;
+                CurrentWord.StartAnimation = false;
                 CurrentWord = Words[CurrentWordIndex];
+                CurrentWord.StartAnimation = true;
             }
         }
 
@@ -167,6 +173,31 @@ namespace AdemolaTyper.ViewModels
         {
             _processStartTime = DateTime.Now;
             ProcessCompleted = false;
+
+            _timer.Elapsed += modifyWpm;
+            _timer.Interval = 100;
+            _timer.Start();
+        }
+
+        private void modifyWpm(object sender, ElapsedEventArgs e)
+        {
+            if (CurrentWordIndex != Words.Count - 1)
+            {
+                if (ProcessStartTime.HasValue && CurrentWordIndex > 0)
+                {
+                    var elapsedSeconds = new TimeSpan( DateTime.Now.Ticks - ((DateTime) ProcessStartTime).Ticks).TotalSeconds;
+                    var time = DateTime.Now - ProcessStartTime;
+
+                    var seconds = Convert.ToDecimal(elapsedSeconds);
+                    if (seconds > 0)
+                    {
+                        //WordsPerMinute = Convert.ToInt16(60 / ( seconds / Convert.ToDecimal(CurrentWordIndex)));
+                        var tempvalue = Convert.ToInt32(Convert.ToDecimal(CurrentWordIndex/2)/seconds*60);
+                        if(tempvalue > 100) tempvalue = 100;
+                        WordsPerMinute = tempvalue;
+                    }                    
+                }
+            }
         }
 
         private void keyPressed(Object key)

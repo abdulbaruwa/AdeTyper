@@ -9,16 +9,19 @@ namespace AdemolaTyper.DesignData
         public static ObservableCollection<WordViewModel> InitializeDummyData()
         {
 
-            var spaceWord = GetSpaceLetterWord();
             var result = new ObservableCollection<WordViewModel>();
             var paragraphLength = new Random().Next(15, 30);
             Random random = new Random();
+            var firstWordViewModel = GetRandomWord(random.Next(1, 10));
+            firstWordViewModel.StartAnimation = true;
+            result.Add(firstWordViewModel);
+            result.Add(GetSpaceLetterWord());
             for (int i = 0; i < paragraphLength; i++)
             {
                 WordViewModel wordViewModel = null;
                 wordViewModel = GetRandomWord(random.Next(1, 10));
                 result.Add(wordViewModel);
-                result.Add(spaceWord);
+                result.Add(GetSpaceLetterWord());
             }
             return result;
         }

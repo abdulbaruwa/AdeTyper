@@ -15,6 +15,17 @@ namespace AdemolaTyper.ViewModels
         private bool _isComplete;
         private MainViewModel _mainViewModel;
         private bool _isLastWord;
+        private bool _startAnimation;
+
+        public bool StartAnimation
+        {
+            get { return _startAnimation; }
+            set
+            {
+                _startAnimation = value;
+                OnPropertyChanged("StartAnimation");
+            }
+        }
 
         public bool IsLastWord
         {
@@ -23,6 +34,7 @@ namespace AdemolaTyper.ViewModels
             OnPropertyChanged("IsLastWord");}
         }
 
+        
         public WordViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;

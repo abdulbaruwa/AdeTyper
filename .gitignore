@@ -1,0 +1,5 @@
+bin/*.dll
+**/bin/*.dll
+**/*/bin/*.dll
+**/**/bin/*.dll
+*.Resharper
