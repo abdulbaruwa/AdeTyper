@@ -987,7 +987,7 @@
         <Setter Property="SnapsToDevicePixels" Value="true" />
         <Setter Property="OverridesDefaultStyle" Value="true" />
         <Setter Property="MinHeight" Value="23" />
-        <Setter Property="MinWidth" Value="75" />
+        <!--<Setter Property="MinWidth" Value="75" />-->
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">

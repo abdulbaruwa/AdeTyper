@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d"              >
     <Border Background="#FF1C385C"  Name="MessageBlockControlBorder" BorderThickness="2" BorderBrush="gray" CornerRadius="20,6,20,6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="100" MinWidth="300" MaxWidth="300" >
-        <Grid>
+        <Grid Height="96" VerticalAlignment="Top">
             <Grid.RowDefinitions>
                 <RowDefinition />
                 <RowDefinition Height="30"/>
@@ -15,9 +15,9 @@
             		<SolidColorBrush Color="LightGray"/>
             	</TextBlock.Foreground>
             </TextBlock>
-            <StackPanel Margin="100,3,100,3" Orientation="Horizontal" Grid.Row="1">
-                <Button Command="{Binding IsVisible}" IsCancel="True" Focusable="False">Ok</Button>
-                <Button Command="{Binding IsVisible}" IsCancel="True" Focusable="False">Try Again?</Button>
+            <StackPanel HorizontalAlignment="Stretch" Margin="100,3,20,3" Orientation="Horizontal" Grid.Row="1">
+                <Button Command="{Binding IsVisible}" Focusable="False" Width="40">Ok</Button>
+                <Button Command="{Binding IsVisible}" Focusable="False" Width="70">Try Again?</Button>
             </StackPanel>
             
         </Grid>
