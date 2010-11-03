@@ -114,3 +114,5 @@ D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\zh-Hans\System.Windows.I
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\Views\TypingCompleteView.baml
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\Views\TypingCompleteView.g.cs
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\Views\OptionsView.baml
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\Views\OptionsView.g.cs

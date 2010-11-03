@@ -15,9 +15,10 @@
             		<SolidColorBrush Color="LightGray"/>
             	</TextBlock.Foreground>
             </TextBlock>
-            <StackPanel HorizontalAlignment="Stretch" Margin="100,3,20,3" Orientation="Horizontal" Grid.Row="1">
+            <StackPanel HorizontalAlignment="Stretch" Margin="60,3,20,3" Orientation="Horizontal" Grid.Row="1">
                 <Button Command="{Binding IsVisible}" Focusable="False" Width="40">Ok</Button>
                 <Button Command="{Binding IsVisible}" Focusable="False" Width="70">Try Again?</Button>
+                <Button x:Name="Button_Next_Level" Command="{Binding IsVisible}" Focusable="False" Width="70" Content="Next Level?"/>
             </StackPanel>
             
         </Grid>
