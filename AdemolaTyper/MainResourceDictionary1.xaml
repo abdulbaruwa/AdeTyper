@@ -6,6 +6,10 @@
     <DataTemplate DataType="{x:Type ViewModels:WordViewModel}" x:Key="WordsTemplate" >
         <Views:WordView/>
     </DataTemplate>
+
+    <DataTemplate DataType="{x:Type ViewModels:OptionsViewModel}" x:Key="OptionsTemplate">
+        <Views:MenuView/>
+    </DataTemplate>
     
     <Converters:BoolToVisibilityConverter x:Key="boolToVisibilityConverter" />    
 

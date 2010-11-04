@@ -8,35 +8,91 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="private" priority="0" />
-      <Item value="OnPropertyChanged`0" priority="0" />
-      <Item value="ViewModelBase`0" priority="0" />
-      <Item value="public" priority="0" />
+      <Item value="private" priority="9" />
+      <Item value="OnPropertyChanged`0" priority="5" />
+      <Item value="ViewModelBase`0" priority="1" />
+      <Item value="public" priority="2" />
+      <Item value="bool" priority="0" />
+      <Item value="string" priority="3" />
+      <Item value="TypeTests`0" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="OptionsViewModel`0" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="MainViewModel`0" priority="0" />
+      <Item value="mainViewModel" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="ArgumentException`0" priority="0" />
+      <Item value="this" priority="3" />
+      <Item value="new" priority="0" />
+      <Item value="OptionsViewModel" priority="0" />
+      <Item value="Options" priority="1" />
+      <Item value="null" priority="0" />
+      <Item value="CannotUnloadAppDomainException`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.EventArgs">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.MainViewModel">
+      <Item value="Options" priority="3" />
+      <Item value="Options_RequestClose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.OptionsViewModel">
+      <Item value="RequestClose" priority="3" />
+      <Item value="InvokeRequestClose`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventHandler">
+      <Item value="Invoke`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypingCompleteViewModel.cs" caret="121" fromTop="5" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml.cs" caret="4329" fromTop="30" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="618" fromTop="10" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypingCompleteView.xaml" caret="1523" fromTop="18" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="65031" fromTop="11" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="5017" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml.cs" caret="252" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelBase.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="63" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="188" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypingCompleteView.xaml" caret="1720" fromTop="21" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:WordView.xaml" caret="801" fromTop="8" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="2574" fromTop="40" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="622" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="6867" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2566" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2756" fromTop="34" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2082" fromTop="31" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="6375" fromTop="30" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="5933" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="7336" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="7336" fromTop="17" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="7336" fromTop="236" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypingCompleteViewModel.cs" caret="111" fromTop="3" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="5653" fromTop="8" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypingCompleteView.xaml" caret="820" fromTop="9" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypingCompleteView.xaml" caret="1523" fromTop="18" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="5184" fromTop="29" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="65031" fromTop="11" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="6664" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="38" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="32" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="26" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="187" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="826" fromTop="29" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="354" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="63" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="7433" fromTop="20" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="7327" fromTop="16" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="188" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="7010" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="8371" fromTop="32" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="8371" fromTop="247" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2480" fromTop="16" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="886" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2672" fromTop="35" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="38" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="17" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="15" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="600" fromTop="7" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="793" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2886" fromTop="40" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="3129" fromTop="46" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2567" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="52" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="88" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2314" fromTop="39" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

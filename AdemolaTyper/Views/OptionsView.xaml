@@ -37,7 +37,7 @@
             
             <StackPanel HorizontalAlignment="Stretch" Margin="100,3,20,3" Orientation="Horizontal" Grid.Row="2">
                 <Button Command="{Binding IsVisible}" Focusable="False" Width="50" Content="Apply"/>
-                <Button Command="{Binding IsVisible}" Focusable="False" Width="50" Content="Cancel"/>
+                <Button Command="{Binding CloseCommand}" Focusable="False" Width="50" Content="Cancel"/>
             </StackPanel>
             
         </Grid>

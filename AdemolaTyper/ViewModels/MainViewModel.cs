@@ -13,6 +13,7 @@ namespace AdemolaTyper.ViewModels
         private int _currentWordIndex;
         private RelayCommand _currentWordIsProcessed;
         private RelayCommand _keyPressReceivedCommand;
+        private OptionsViewModel _options;
         private bool _processCompleted;
         private RelayCommand _processStartCommand;
         private DateTime? _processStartTime;
@@ -20,12 +21,23 @@ namespace AdemolaTyper.ViewModels
         private TypingCompleteViewModel _typingComplete;
         private ObservableCollection<WordViewModel> _words;
         private int _wordsPerMinute;
+        private RelayCommand _showOptionsCommand;
 
         public MainViewModel()
         {
             if (_words == null)
             {
                 _words = new ObservableCollection<WordViewModel>();
+            }
+        }
+
+        public OptionsViewModel Options
+        {
+            get { return _options; }
+            set
+            {
+                _options = value;
+                OnPropertyChanged("Options");
             }
         }
 
@@ -69,6 +81,31 @@ namespace AdemolaTyper.ViewModels
                 }
                 return _keyPressReceivedCommand;
             }
+        }
+
+
+        public ICommand ShowOptionsCommand
+        {
+            get
+            {
+                if (_showOptionsCommand == null)
+                {
+                    _showOptionsCommand = new RelayCommand(param => ShowOptions());
+                }
+                return _showOptionsCommand;
+            }
+        }
+
+        private void ShowOptions()
+        {
+            this.Options = new OptionsViewModel(this);
+            this.Options.RequestClose += Options_RequestClose;
+        }
+
+        private void Options_RequestClose(object sender, EventArgs e)
+        {
+            this.Options.RequestClose -= Options_RequestClose;
+            this.Options = null;
         }
 
         public ICommand ProcessStart

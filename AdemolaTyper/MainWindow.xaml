@@ -96,9 +96,22 @@
                                     </Style.Triggers>
                                 </Style>
                             </Views:TypingCompleteView.Style>
-                        </Views:TypingCompleteView>				
-					</Grid>
+                        </Views:TypingCompleteView>
 
+                        <Views:OptionsView DataContext="{Binding Path=Options, Mode=TwoWay}">
+                            <Views:OptionsView.Style>
+                                <Style TargetType="{x:Type Views:OptionsView}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=.}" Value="{x:Null}">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Views:OptionsView.Style>
+                        </Views:OptionsView>
+                    </Grid>
+
+                    
                     <!--<ContentControl  BorderThickness="0" BorderBrush="Wheat" Grid.Column="0" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" 
 						x:Name="MaintabControl1" Foreground="Black" Content="{Binding Workspace, Mode=OneWay}" />-->
                 </Border>
