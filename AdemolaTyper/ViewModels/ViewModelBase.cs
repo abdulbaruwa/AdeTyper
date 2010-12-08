@@ -1,18 +1,41 @@
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
+using AdemolaTyper.Common;
 
 namespace AdemolaTyper.ViewModels
 {
+
+
     /// <summary>
     /// Base class for all ViewModel classes in the application.
     /// It provides support for property change notifications 
     /// and has a DisplayName property.  This class is abstract.
     /// </summary>
+    /// 
     public abstract class ViewModelBase : INotifyPropertyChanged, IDisposable
     {
-        #region Constructor
+        #region Service Locator
+        ServiceLocator _serviceLocator = new ServiceLocator();
 
+        public ServiceLocator ServiceLocator
+        {
+            get
+            {
+                return _serviceLocator;
+            }
+
+        }
+        
+        public T GetService<T>()
+        {
+            return _serviceLocator.GetService<T>();
+        }
+        #endregion Service Locator
+
+        
+        #region Constructor
+        
         protected ViewModelBase()
         {
         }

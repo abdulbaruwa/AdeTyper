@@ -63,16 +63,31 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Common\ServiceLocator.cs" />
     <Compile Include="Control\TyperPanel.cs" />
     <Compile Include="Converters\BoolToFontColourConverter.cs" />
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
     <Compile Include="DesignData\DesignTimeData.cs" />
+    <Compile Include="DesignData\DesignTimeOptionsDataSource.cs" />
+    <Compile Include="Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Extensions\IMapper.cs" />
+    <Compile Include="Extensions\IValueReturningVisitor.cs" />
+    <Compile Include="Extensions\IVisitor.cs" />
+    <Compile Include="Helpers\Designer.cs" />
+    <Compile Include="DesignData\DesignTimeOptionsViewModel.cs" />
+    <Compile Include="MVVMHelpers\IFactory.cs" />
+    <Compile Include="DataSources\IOptionsDataSource.cs" />
+    <Compile Include="DataSources\OptionsDataSource.cs" />
+    <Compile Include="MVVMHelpers\ViewModelLoader.cs" />
+    <Compile Include="ViewModels\Factories\OptionsViewModelFactory.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\OptionsViewModel.cs" />
+    <Compile Include="ViewModels\Tester.cs" />
     <Compile Include="ViewModels\TypeFaceViewModel.cs" />
     <Compile Include="ViewModels\TypeTestLevel.cs" />
     <Compile Include="ViewModels\TypeTest.cs" />
     <Compile Include="ViewModels\TypingCompleteViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelProps.cs" />
     <Compile Include="Views\OptionsView.xaml.cs">
       <DependentUpon>OptionsView.xaml</DependentUpon>
     </Compile>
@@ -163,6 +178,9 @@
       <Project>{A8FB5523-0CBF-4354-9BB7-4648382304EF}</Project>
       <Name>CustomControls</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <DesignData Include="SampleData\OptionsViewModelSampleData.xaml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

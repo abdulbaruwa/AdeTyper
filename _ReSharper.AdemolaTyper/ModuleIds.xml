@@ -1,4 +1,5 @@
 <Modules>
   <Module PersistentId="00BABC52-57AD-4DB4-8724-14CC832B9B7D" ModuleId="AdemolaTyper" />
   <Module PersistentId="A8FB5523-0CBF-4354-9BB7-4648382304EF" ModuleId="CustomControls" />
+  <Module PersistentId="B1BB766F-C96A-4B16-9605-A74A4564E390" ModuleId="AdemolaTyperTest" />
 </Modules>

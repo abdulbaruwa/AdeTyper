@@ -98,7 +98,7 @@ namespace AdemolaTyper.ViewModels
 
         private void ShowOptions()
         {
-            this.Options = new OptionsViewModel(this);
+            this.Options = new OptionsViewModel();
             this.Options.RequestClose += Options_RequestClose;
         }
 

@@ -10,26 +10,95 @@
     <ItemStatistics item="Default">
       <Item value="private" priority="9" />
       <Item value="OnPropertyChanged`0" priority="5" />
-      <Item value="ViewModelBase`0" priority="1" />
-      <Item value="public" priority="2" />
-      <Item value="bool" priority="0" />
-      <Item value="string" priority="3" />
+      <Item value="ViewModelBase`0" priority="3" />
+      <Item value="public" priority="8" />
+      <Item value="bool" priority="3" />
+      <Item value="string" priority="4" />
       <Item value="TypeTests`0" priority="0" />
       <Item value="int" priority="0" />
-      <Item value="OptionsViewModel`0" priority="0" />
-      <Item value="return" priority="0" />
+      <Item value="OptionsViewModel`0" priority="1" />
+      <Item value="return" priority="14" />
       <Item value="value" priority="0" />
       <Item value="EventArgs`0" priority="0" />
       <Item value="MainViewModel`0" priority="0" />
-      <Item value="mainViewModel" priority="0" />
-      <Item value="throw" priority="0" />
+      <Item value="mainViewModel" priority="1" />
+      <Item value="throw" priority="1" />
       <Item value="ArgumentException`0" priority="0" />
       <Item value="this" priority="3" />
-      <Item value="new" priority="0" />
+      <Item value="new" priority="19" />
       <Item value="OptionsViewModel" priority="0" />
       <Item value="Options" priority="1" />
-      <Item value="null" priority="0" />
+      <Item value="null" priority="2" />
       <Item value="CannotUnloadAppDomainException`0" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="System" priority="1" />
+      <Item value="ComponentModel" priority="0" />
+      <Item value="Design" priority="0" />
+      <Item value="MainViewModel" priority="1" />
+      <Item value="_editingUserName" priority="0" />
+      <Item value="_userName" priority="3" />
+      <Item value="if" priority="7" />
+      <Item value="_levels" priority="5" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="2" />
+      <Item value="_typeTests" priority="2" />
+      <Item value="ObservableCollection&lt;TypeTest&gt;" priority="1" />
+      <Item value="Console`0" priority="0" />
+      <Item value="d" priority="2" />
+      <Item value="lock" priority="2" />
+      <Item value="Dictionary&lt;Type,object&gt;" priority="0" />
+      <Item value="services" priority="4" />
+      <Item value="serviceType" priority="1" />
+      <Item value="GetService`0" priority="0" />
+      <Item value="typeof" priority="5" />
+      <Item value="void" priority="2" />
+      <Item value="T`0" priority="3" />
+      <Item value="service" priority="2" />
+      <Item value="true" priority="1" />
+      <Item value="else" priority="1" />
+      <Item value="overwriteExisting" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="RegisterService`1" priority="0" />
+      <Item value="ServiceLocator" priority="0" />
+      <Item value="ServiceLocator`0" priority="0" />
+      <Item value="serviceLocator" priority="0" />
+      <Item value="Tester`0" priority="0" />
+      <Item value="_serviceLocator" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="var" priority="2" />
+      <Item value="optionsVm" priority="2" />
+      <Item value="DesignTimeOptionsViewModel`0" priority="0" />
+      <Item value="levels" priority="0" />
+      <Item value="ObservableCollection" priority="0" />
+      <Item value="typeTests" priority="1" />
+      <Item value="TypeTest" priority="0" />
+      <Item value="DesignTimeOptionsDataSource`0" priority="0" />
+      <Item value="IOptionsDataSource`0" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="List&lt;TypeTest&gt;" priority="0" />
+      <Item value="Levels" priority="0" />
+      <Item value="GetService`1" priority="0" />
+      <Item value="dataSource" priority="2" />
+      <Item value="Linq" priority="0" />
+      <Item value="ValueToReturn`0" priority="0" />
+      <Item value="IVisitor" priority="0" />
+      <Item value="ItemToVisit`0" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="readonly" priority="0" />
+      <Item value="DependencyProperty`0" priority="1" />
+      <Item value="AdemolaTyper" priority="0" />
+      <Item value="ViewModelLoader`0" priority="0" />
+      <Item value="Type`0" priority="1" />
+      <Item value="Nullable`0" priority="0" />
+      <Item value="PropertyChangedCallback" priority="0" />
+      <Item value="FrameworkElement`0" priority="1" />
+      <Item value="IFactory`0" priority="1" />
+      <Item value="Activator`0" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="dependencyObject" priority="1" />
+      <Item value="FactoryTypeProperty" priority="1" />
+      <Item value="factory" priority="1" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="element" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.EventArgs">
       <Item value="Empty" priority="0" />
@@ -41,58 +110,122 @@
     <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.OptionsViewModel">
       <Item value="RequestClose" priority="3" />
       <Item value="InvokeRequestClose`0" priority="1" />
+      <Item value="ServiceLocator" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.EventHandler">
       <Item value="Invoke`0" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyObject">
+      <Item value="ToString`0" priority="0" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="SetValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="1" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.Common.ServiceLocator">
+      <Item value="GetService`0" priority="0" />
+      <Item value="RegisterService`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AdemolaTyper.Helpers.Designer">
+      <Item value="IsDesignMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.DataSources.IOptionsDataSource">
+      <Item value="GetCurrentUser`0" priority="0" />
+      <Item value="GetLevels`0" priority="0" />
+      <Item value="GetTypeTests`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Indexer" priority="0" />
+      <Item value="each`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="RegisterAttached`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.FrameworkElement">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.MVVMHelpers.IFactory">
+      <Item value="CreateViewModel`0" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml.cs" caret="252" fromTop="9" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelBase.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="63" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="188" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypingCompleteView.xaml" caret="1720" fromTop="21" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:WordView.xaml" caret="801" fromTop="8" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="2574" fromTop="40" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="622" fromTop="4" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="6867" fromTop="14" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2566" fromTop="13" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2756" fromTop="34" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2082" fromTop="31" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:CommandViewModel.cs" caret="552" fromTop="20" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="1230" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypingCompleteViewModel.cs" caret="55" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2866" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:Tester.cs" caret="178" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml.cs" caret="0" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="0" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Helpers/f:Designer.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="55" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeData.cs" caret="1239" fromTop="32" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="493" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelBase.cs" caret="885" fromTop="32" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IValueReturningVisitor.cs" caret="189" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IVisitor.cs" caret="59" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IOptionsDataSource.cs" caret="212" fromTop="7" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1146" fromTop="28" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="569" fromTop="18" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:IFactory.cs" caret="89" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1500" fromTop="32" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsDataSource.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Common/f:ServiceLocator.cs" caret="1161" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="338" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="1408" fromTop="16" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1202" fromTop="25" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="6" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="38" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="32" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="26" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="187" fromTop="5" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="826" fromTop="29" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="354" fromTop="13" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="63" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="7433" fromTop="20" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="7327" fromTop="16" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="188" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainWindow.xaml" caret="7010" fromTop="14" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="8371" fromTop="32" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="8371" fromTop="247" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2480" fromTop="16" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="886" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2672" fromTop="35" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="38" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="17" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="15" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="600" fromTop="7" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="793" fromTop="9" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2886" fromTop="40" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="3129" fromTop="46" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2567" fromTop="13" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="52" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2335" fromTop="88" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2314" fromTop="39" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsDataSource.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="751" fromTop="21" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="108" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="274" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="378" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="491" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Common/f:ServiceLocator.cs" caret="896" fromTop="31" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1048" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="87" fromTop="2" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IOptionsDataSource.cs" caret="255" fromTop="7" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="94" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="205" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="464" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="133" fromTop="8" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="42" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="800" fromTop="20" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IVisitor.cs" caret="77" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1380" fromTop="40" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1138" fromTop="28" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IValueReturningVisitor.cs" caret="149" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1424" fromTop="28" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="668" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1160" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1477" fromTop="28" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="175" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsDataSource.cs" caret="905" fromTop="29" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="731" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="363" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2002" fromTop="48" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="469" fromTop="2" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

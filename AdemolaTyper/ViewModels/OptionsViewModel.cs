@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using AdemolaTyper.Commands;
+using AdemolaTyper.DataSources;
+using AdemolaTyper.Extensions;
 
 namespace AdemolaTyper.ViewModels
 {
@@ -10,17 +13,33 @@ namespace AdemolaTyper.ViewModels
     {
         private RelayCommand _closeCommand;
         private bool _editingUserName;
-        private IList<string> _levels;
+        private ObservableCollection<string> _levels;
         private MainViewModel _mainViewModel;
-        private ObservableCollection<TypeTest> _typeTests;
+        private ObservableCollection<TypeTest> _typeTests = new ObservableCollection<TypeTest>();
         private string _userName;
 
-        public OptionsViewModel(MainViewModel mainViewModel)
+        //public OptionsViewModel(MainViewModel mainViewModel)
+        //{
+        //    if (mainViewModel == null) throw new ArgumentException("mainViewModel");
+        //    _mainViewModel = mainViewModel;
+        //}
+
+        public OptionsViewModel()
         {
-            if (mainViewModel == null) throw new ArgumentException("mainViewModel");
-            _mainViewModel = mainViewModel;
+            _mainViewModel = new MainViewModel();
+            if(Levels == null)
+            {
+                LoadData();
+            }
         }
 
+        private void LoadData()
+        {
+            var dataSource = GetService<IOptionsDataSource>();
+            _userName = dataSource.GetCurrentUser();
+            dataSource.GetLevels().each(x => _levels.Add(x));
+            dataSource.GetTypeTests().each(x => _typeTests.Add(x));
+        }
 
         public bool EditingUserName
         {
@@ -34,7 +53,10 @@ namespace AdemolaTyper.ViewModels
 
         public string UserName
         {
-            get { return _userName; }
+            get
+            {
+                return _userName;
+            }
             set
             {
                 _userName = value;
@@ -42,9 +64,12 @@ namespace AdemolaTyper.ViewModels
             }
         }
 
-        public IList<string> Levels
+        public ObservableCollection<string> Levels
         {
-            get { return _levels; }
+            get { 
+                
+                return _levels; 
+            }
             set
             {
                 _levels = value;

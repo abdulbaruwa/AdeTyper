@@ -110,7 +110,6 @@
                             </Views:OptionsView.Style>
                         </Views:OptionsView>
                     </Grid>
-
                     
                     <!--<ContentControl  BorderThickness="0" BorderBrush="Wheat" Grid.Column="0" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" 
 						x:Name="MaintabControl1" Foreground="Black" Content="{Binding Workspace, Mode=OneWay}" />-->
