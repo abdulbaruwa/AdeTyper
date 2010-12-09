@@ -16,7 +16,7 @@ namespace AdemolaTyper.ViewModels
         private ObservableCollection<string> _levels;
         private MainViewModel _mainViewModel;
         private ObservableCollection<TypeTest> _typeTests = new ObservableCollection<TypeTest>();
-        private string _userName;
+        private string _userName = "someone";
 
         //public OptionsViewModel(MainViewModel mainViewModel)
         //{
@@ -27,10 +27,6 @@ namespace AdemolaTyper.ViewModels
         public OptionsViewModel()
         {
             _mainViewModel = new MainViewModel();
-            if(Levels == null)
-            {
-                LoadData();
-            }
         }
 
         private void LoadData()
@@ -43,11 +39,14 @@ namespace AdemolaTyper.ViewModels
 
         public bool EditingUserName
         {
-            get { return _editingUserName; }
+            get
+            {
+                return _editingUserName;
+            }
             set
             {
                 _editingUserName = value;
-                OnPropertyChanged("TypeTest");
+                OnPropertyChanged("EditingUserName");
             }
         }
 
@@ -55,12 +54,13 @@ namespace AdemolaTyper.ViewModels
         {
             get
             {
+                if(string.IsNullOrEmpty(_userName))LoadData();
                 return _userName;
             }
             set
             {
                 _userName = value;
-                OnPropertyChanged("TypeTest");
+                OnPropertyChanged("UserName");
             }
         }
 
@@ -68,18 +68,23 @@ namespace AdemolaTyper.ViewModels
         {
             get { 
                 
+                if(_levels == null) LoadData();
                 return _levels; 
             }
             set
             {
                 _levels = value;
-                OnPropertyChanged("TypeTest");
+                OnPropertyChanged("Levels");
             }
         }
 
         public ObservableCollection<TypeTest> TypeTests
         {
-            get { return _typeTests; }
+            get
+            {
+                if(_typeTests == null)LoadData();
+                return _typeTests;
+            }
             set
             {
                 _typeTests = value;

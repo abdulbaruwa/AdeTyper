@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:MVVMHelpers="clr-namespace:AdemolaTyper.MVVMHelpers" xmlns:Factories="clr-namespace:AdemolaTyper.ViewModels.Factories" mc:Ignorable="d"
-             MVVMHelpers:ViewModelLoader.FactoryType="{x:Type Factories:OptionsViewModelFactory}"  >
+             MVVMHelpers:ViewModelLoader.FactoryType="{x:Type Factories:OptionsViewModelFactory}">
     
-    <Border Background="#FF1C385C"  Name="MessageBlockControlBorder" BorderThickness="2" BorderBrush="gray" CornerRadius="20,6,20,6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" MinWidth="400" MaxWidth="400" >
+    <Border Background="#FF1C385C"  Name="MessageBlockControlBorder" BorderThickness="2" BorderBrush="gray" CornerRadius="20,6,20,6" VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch" MinWidth="400" MaxWidth="400" >
         <Grid VerticalAlignment="Top">
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>
@@ -15,8 +16,8 @@
             
             <StackPanel HorizontalAlignment="Stretch" Margin="5,3,20,3" Orientation="Horizontal" Grid.Row="0">
                 <Label VerticalAlignment="Center" Foreground="LightGray" Content="Name:"/>
-                <TextBlock VerticalAlignment="Center" Foreground="LightGray"><Run Text="{Binding Username}"/></TextBlock>
-                <TextBox Margin="0,6,0,6" Name="NewNameTextbox" Visibility="{Binding ChangeNameVisible}"></TextBox>
+                <TextBlock VerticalAlignment="Center" Foreground="LightGray" Width="106"><Run Text="{Binding UserName}"/></TextBlock>
+                <!--<TextBox Margin="0,6,0,6" Name="NewNameTextbox" Visibility="{Binding ChangeNameVisible}"></TextBox>-->
             </StackPanel>
             <Grid Name="Levels" Grid.Row="1" Grid.Column="2" >
                 <Grid.RowDefinitions>
@@ -38,7 +39,7 @@
             
             <StackPanel HorizontalAlignment="Stretch" Margin="150,3,20,3" Orientation="Horizontal" Grid.Row="2">
                 <Button Command="{Binding IsVisible}" Focusable="False" Width="50" Content="Apply"/>
-                <Button Command="{Binding CloseCommand}" Focusable="False" Width="50" Content="Cancel"/>
+                <Button Command="{Binding CloseCommand}" Focusable="False" Width="50" Content="{Binding UserName, Mode=TwoWay}"/>
             </StackPanel>
             
         </Grid>

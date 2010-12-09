@@ -1,5 +1,6 @@
 using System;
 using System.Windows;
+using AdemolaTyper.ViewModels;
 
 namespace AdemolaTyper.MVVMHelpers
 {
@@ -18,7 +19,10 @@ namespace AdemolaTyper.MVVMHelpers
             IFactory factory = Activator.CreateInstance(GetFactoryType(d)) as IFactory;
             if (factory == null)
                 throw new InvalidOperationException("You have to specify a type that inherits from IFactory");
+            
             element.DataContext = factory.CreateViewModel(d);
+            var xx = (OptionsViewModel) element.DataContext;
+            throw new InvalidOperationException(d.ToString());
         }
 
         private static Type GetFactoryType(DependencyObject dependencyObject)

@@ -1,10 +1,8 @@
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Windows.Input;
 using AdemolaTyper.Commands;
-using AdemolaTyper.DataSources;
 using AdemolaTyper.ViewModels;
+using System.Collections.ObjectModel;
 
 namespace AdemolaTyper.DesignData
 {
