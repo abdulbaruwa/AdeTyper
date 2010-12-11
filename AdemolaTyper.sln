@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CustomControls\CustomControls.csproj", "{A8FB5523-0CBF-4354-9BB7-4648382304EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLib", "MVVMLib\MVVMLib.csproj", "{05EC598E-44D2-4784-85A2-8D78D442E910}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = AdemolaTyper.vsmdi
@@ -57,6 +59,16 @@ Global
 		{A8FB5523-0CBF-4354-9BB7-4648382304EF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A8FB5523-0CBF-4354-9BB7-4648382304EF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A8FB5523-0CBF-4354-9BB7-4648382304EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{05EC598E-44D2-4784-85A2-8D78D442E910}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,7 @@
 using System;
 using System.Diagnostics;
 using System.Windows;
-using System.ComponentModel;
-using AdemolaTyper.Helpers;
+using MVVMLib.Helpers;
 
 namespace AdemolaTyper.ViewModels
 {

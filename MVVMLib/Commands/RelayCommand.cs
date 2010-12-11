@@ -2,7 +2,8 @@ using System;
 using System.Diagnostics;
 using System.Windows.Input;
 
-namespace AdemolaTyper.Commands
+
+namespace MVVMLib.Commands
 {
     /// <summary>
     /// A command whose sole purpose is to 

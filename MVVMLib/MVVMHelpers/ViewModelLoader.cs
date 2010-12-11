@@ -1,8 +1,8 @@
 using System;
+using System.Diagnostics;
 using System.Windows;
-using AdemolaTyper.ViewModels;
 
-namespace AdemolaTyper.MVVMHelpers
+namespace MVVMLib.MVVMHelpers
 {
     public class ViewModelLoader
     {
@@ -21,8 +21,8 @@ namespace AdemolaTyper.MVVMHelpers
                 throw new InvalidOperationException("You have to specify a type that inherits from IFactory");
             
             element.DataContext = factory.CreateViewModel(d);
-            var xx = (OptionsViewModel) element.DataContext;
-            throw new InvalidOperationException(d.ToString());
+            //var xx = () element.DataContext;
+            //throw new InvalidOperationException(d.ToString());
         }
 
         private static Type GetFactoryType(DependencyObject dependencyObject)

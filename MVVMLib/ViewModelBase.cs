@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
-using AdemolaTyper.Common;
+using MVVMLib.Common;
 
-namespace AdemolaTyper.ViewModels
+namespace MVVMLib
 {
 
 

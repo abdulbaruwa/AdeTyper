@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using MVVMLib;
 
 namespace AdemolaTyper.ViewModels
 {

@@ -1,0 +1,5 @@
+D:\Development\AdeTyper\AdeTyper\MVVMLib\bin\Debug\MVVMLib.dll
+D:\Development\AdeTyper\AdeTyper\MVVMLib\bin\Debug\MVVMLib.pdb
+D:\Development\AdeTyper\AdeTyper\MVVMLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\AdeTyper\AdeTyper\MVVMLib\obj\Debug\MVVMLib.dll
+D:\Development\AdeTyper\AdeTyper\MVVMLib\obj\Debug\MVVMLib.pdb

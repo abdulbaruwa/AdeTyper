@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Windows;
 
-namespace AdemolaTyper.Helpers
+namespace MVVMLib.Helpers
 {
     /// <summary>
     /// Can be used to resolve whether the 

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AdemolaTyper.Common
+namespace MVVMLib.Common
 {
     public class ServiceLocator : IServiceProvider
     {

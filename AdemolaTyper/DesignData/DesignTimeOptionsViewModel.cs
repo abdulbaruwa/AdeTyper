@@ -1,6 +1,7 @@
 using System;
+using MVVMLib;
+using MVVMLib.Commands;
 using System.Windows.Input;
-using AdemolaTyper.Commands;
 using AdemolaTyper.ViewModels;
 using System.Collections.ObjectModel;
 

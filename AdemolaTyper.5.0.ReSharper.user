@@ -174,68 +174,67 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypingCompleteViewModel.cs" caret="55" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="2866" fromTop="30" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:Tester.cs" caret="178" fromTop="5" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml.cs" caret="0" fromTop="0" />
-      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="0" fromTop="0" />
-      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:MainViewModelTests.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Helpers/f:Designer.cs" caret="0" fromTop="0" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="55" fromTop="1" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeData.cs" caret="1239" fromTop="32" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IValueReturningVisitor.cs" caret="189" fromTop="5" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IVisitor.cs" caret="59" fromTop="1" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="0" fromTop="0" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1146" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="569" fromTop="18" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Common/f:ServiceLocator.cs" caret="153" fromTop="6" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelBase.cs" caret="992" fromTop="39" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IOptionsDataSource.cs" caret="224" fromTop="7" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeFaceViewModel.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="119" fromTop="3" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="209" fromTop="7" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsDataSource.cs" caret="174" fromTop="4" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="0" fromTop="0" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml" caret="1" fromTop="0" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml.cs" caret="213" fromTop="8" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="914" fromTop="13" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="250" fromTop="8" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:IFactory.cs" caret="117" fromTop="5" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1635" fromTop="31" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1546" fromTop="31" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="604" fromTop="4" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1639" fromTop="35" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:IFactory.cs" caret="52" fromTop="1" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Helpers/f:Designer.cs" caret="1052" fromTop="39" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Common/f:ServiceLocator.cs" caret="1271" fromTop="48" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="105" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:Tester.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="71" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="2817" fromTop="32" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="668" fromTop="26" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="97" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="957" fromTop="28" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="293" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="736" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="133" fromTop="8" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="42" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="800" fromTop="20" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IVisitor.cs" caret="77" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1380" fromTop="40" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1138" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IValueReturningVisitor.cs" caret="149" fromTop="3" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1345" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="700" fromTop="10" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1649" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="207" fromTop="6" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsDataSource.cs" caret="905" fromTop="29" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="731" fromTop="19" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="469" fromTop="2" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="999" fromTop="24" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1998" fromTop="45" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1742" fromTop="35" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1406" fromTop="22" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2426" fromTop="45" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="119" fromTop="3" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1572" fromTop="32" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="1905" fromTop="46" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="2244" fromTop="56" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="660" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="616" fromTop="9" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml.cs" caret="777" fromTop="8" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="822" fromTop="10" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1319" fromTop="23" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2913" fromTop="24" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="1436" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="604" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2927" fromTop="24" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="1450" fromTop="1" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="1910" fromTop="68" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="71" fromTop="1" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="534" fromTop="21" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Common/f:ServiceLocator.cs" caret="1271" fromTop="48" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Helpers/f:Designer.cs" caret="1052" fromTop="39" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:IFactory.cs" caret="52" fromTop="1" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1639" fromTop="35" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1238" fromTop="22" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="832" fromTop="22" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="105" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="315" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="13" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="276" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="44" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="741" fromTop="24" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="54" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="118" fromTop="2" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="63" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="364" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="3250" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="2817" fromTop="32" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="4590" fromTop="145" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="97" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="864" fromTop="24" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

@@ -62,8 +62,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Commands\RelayCommand.cs" />
-    <Compile Include="Common\ServiceLocator.cs" />
     <Compile Include="Control\TyperPanel.cs" />
     <Compile Include="Converters\BoolToFontColourConverter.cs" />
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
@@ -73,12 +71,9 @@
     <Compile Include="Extensions\IMapper.cs" />
     <Compile Include="Extensions\IValueReturningVisitor.cs" />
     <Compile Include="Extensions\IVisitor.cs" />
-    <Compile Include="Helpers\Designer.cs" />
     <Compile Include="DesignData\DesignTimeOptionsViewModel.cs" />
-    <Compile Include="MVVMHelpers\IFactory.cs" />
     <Compile Include="DataSources\IOptionsDataSource.cs" />
     <Compile Include="DataSources\OptionsDataSource.cs" />
-    <Compile Include="MVVMHelpers\ViewModelLoader.cs" />
     <Compile Include="ViewModels\Factories\OptionsViewModelFactory.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\OptionsViewModel.cs" />
@@ -95,7 +90,6 @@
       <DependentUpon>MenuView.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\CommandViewModel.cs" />
-    <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Control\WordPanel.cs" />
     <Compile Include="Views\TypeFaceView.xaml.cs">
       <DependentUpon>TypeFaceView.xaml</DependentUpon>
@@ -177,6 +171,10 @@
     <ProjectReference Include="..\CustomControls\CustomControls.csproj">
       <Project>{A8FB5523-0CBF-4354-9BB7-4648382304EF}</Project>
       <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVVMLib\MVVMLib.csproj">
+      <Project>{05EC598E-44D2-4784-85A2-8D78D442E910}</Project>
+      <Name>MVVMLib</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

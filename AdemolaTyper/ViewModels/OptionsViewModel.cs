@@ -1,11 +1,10 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using AdemolaTyper.Commands;
 using AdemolaTyper.DataSources;
 using AdemolaTyper.Extensions;
+using MVVMLib;
+using MVVMLib.Commands;
 
 namespace AdemolaTyper.ViewModels
 {
@@ -13,10 +12,10 @@ namespace AdemolaTyper.ViewModels
     {
         private RelayCommand _closeCommand;
         private bool _editingUserName;
-        private ObservableCollection<string> _levels;
+        private ObservableCollection<string> _levels = new ObservableCollection<string>();
         private MainViewModel _mainViewModel;
         private ObservableCollection<TypeTest> _typeTests = new ObservableCollection<TypeTest>();
-        private string _userName = "someone";
+        private string _userName;
 
         //public OptionsViewModel(MainViewModel mainViewModel)
         //{
@@ -55,7 +54,7 @@ namespace AdemolaTyper.ViewModels
             get
             {
                 if(string.IsNullOrEmpty(_userName))LoadData();
-                return _userName;
+                return  _userName;
             }
             set
             {

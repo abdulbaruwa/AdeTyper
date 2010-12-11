@@ -1,7 +1,7 @@
 using System.Windows;
 using AdemolaTyper.DataSources;
-using AdemolaTyper.Helpers;
-using AdemolaTyper.MVVMHelpers;
+using MVVMLib.Helpers;
+using MVVMLib.MVVMHelpers;
 
 namespace AdemolaTyper.ViewModels.Factories
 {

@@ -1,4 +1,3 @@
-using System;
 using AdemolaTyper.DesignData;
 using AdemolaTyper.ViewModels;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

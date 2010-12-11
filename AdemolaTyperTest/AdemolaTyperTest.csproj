@@ -56,6 +56,10 @@
       <Project>{00BABC52-57AD-4DB4-8724-14CC832B9B7D}</Project>
       <Name>AdemolaTyper</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MVVMLib\MVVMLib.csproj">
+      <Project>{05EC598E-44D2-4784-85A2-8D78D442E910}</Project>
+      <Name>MVVMLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
