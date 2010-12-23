@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="07df0819-82fc-4cae-9b87-98a8a108816d" name="abdulrahaman@WIN7-64-V8 2010-12-23 00:14:05" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-12-23 00_14_05" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-23T00:14:05.0792000+00:00" queuing="2010-12-23T00:14:05.3492000+00:00" start="2010-12-23T00:14:05.5332000+00:00" finish="2010-12-23T00:14:06.8432000+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_calulate_and_return_type_speed" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="7769eaa6-497f-dacf-de99-e86e773cadc6">
+      <Execution timeOut="1800000" id="21d291a0-825d-4f84-a4d7-bf402d37e23e" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_calulate_and_return_type_speed" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7769eaa6-497f-dacf-de99-e86e773cadc6" executionId="21d291a0-825d-4f84-a4d7-bf402d37e23e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="21d291a0-825d-4f84-a4d7-bf402d37e23e" testId="7769eaa6-497f-dacf-de99-e86e773cadc6" testName="Should_calulate_and_return_type_speed" computerName="WIN7-64-V8" duration="00:00:01.0405440" startTime="2010-12-23T00:14:05.6572000+00:00" endTime="2010-12-23T00:14:06.7682000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21d291a0-825d-4f84-a4d7-bf402d37e23e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

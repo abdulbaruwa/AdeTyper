@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a285fb67-702a-479e-8099-1ce1dafaddb4" name="barua@UK01273 2010-12-20 12:05:54" runUser="BFL\barua" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="barua_UK01273 2010-12-20 12_05_54" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-20T12:05:54.6192507+00:00" queuing="2010-12-20T12:05:54.9312507+00:00" start="2010-12-20T12:05:55.1142507+00:00" finish="2010-12-20T12:05:55.8072507+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="16" executed="16" passed="11" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <DebugTrace>TypeFaceViewModel () (39245305) Finalized
+WordViewModel () (1107403) Finalized
+TypeFaceViewModel () (54299711) Finalized
+WordViewModel () (42643667) Finalized
+TypeFaceViewModel () (4836036) Finalized
+GameOneViewModel () (30375126) Finalized
+WordViewModel () (57651800) Finalized
+TypeFaceViewModel () (19334985) Finalized
+WordViewModel () (66563469) Finalized
+GameOneViewModel () (41300273) Finalized
+GameOneViewModel () (30011032) Finalized
+GameOneViewModel () (60989857) Finalized
+WordViewModel () (40292826) Finalized
+TypeFaceViewModel () (15764291) Finalized
+WordViewModel () (13350246) Finalized
+GameOneViewModel () (23854033) Finalized
+TypeFaceViewModel () (9277885) Finalized
+TypeFaceViewModel () (27298277) Finalized
+TypeFaceViewModel () (48297296) Finalized
+TypeFaceViewModel () (28098155) Finalized
+TypeFaceViewModel () (23597366) Finalized
+GameOneViewModel () (53788414) Finalized
+GameOneViewModel () (20835482) Finalized
+WordViewModel () (38172574) Finalized
+TypeFaceViewModel () (55117617) Finalized
+TypeFaceViewModel () (29868725) Finalized
+TypeFaceViewModel () (47932969) Finalized
+TypeFaceViewModel () (3911053) Finalized
+TypeFaceViewModel () (67065056) Finalized
+WordViewModel () (42621259) Finalized
+GameOneViewModel () (66336046) Finalized
+TypeFaceViewModel () (8806448) Finalized
+GameOneViewModel () (20262627) Finalized
+WordViewModel () (59657542) Finalized
+TypeFaceViewModel () (12216153) Finalized
+TypeFaceViewModel () (4008219) Finalized
+TypeFaceViewModel () (45432462) Finalized
+</DebugTrace>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldSetTheCurrentWorkspaceToGameOneViewModel" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="86554665-dc66-0791-30b3-396bf871fed3">
+      <Execution timeOut="1800000" id="23ae7e86-09cc-45e1-b455-289802ec2f32" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenHomeViewModelIsAskedToCloseMenuView, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSetTheCurrentWorkspaceToGameOneViewModel" />
+    </UnitTest>
+    <UnitTest name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="03abf6ce-3b1f-929f-8747-edf5af7ff1cf">
+      <Execution timeOut="1800000" id="c7ac9892-9049-47bc-bd83-1fd93bbfa551" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.MainViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" />
+    </UnitTest>
+    <UnitTest name="ShouldStoreTheCurrentTypedLetter" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="d00b2144-820f-6d3d-014c-c2637a035d1c">
+      <Execution timeOut="1800000" id="282aee3c-097e-43a6-94eb-927f15d6022c" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldStoreTheCurrentTypedLetter" />
+    </UnitTest>
+    <UnitTest name="ShouldLoadUpTheOptionsViewModelAsTheMainViewModel" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="2a38c16d-ee06-7a93-80fe-c5421a186855">
+      <Execution timeOut="1800000" id="5848fd58-fbd2-48ed-bcc8-7166298bf87b" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenHomeViewModelIsInstantiated, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldLoadUpTheOptionsViewModelAsTheMainViewModel" />
+    </UnitTest>
+    <UnitTest name="ShouldFireGameOneEvent" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba">
+      <Execution timeOut="1800000" id="79f2f4da-4aae-4a55-b034-4bdb0e88464a" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenMenuViewModelIsAskedToPlayGameOne, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldFireGameOneEvent" />
+    </UnitTest>
+    <UnitTest name="Should_set_the_completed_flag_when_the_last_word_has_been_processed" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="648157f9-f5bc-a1a3-5d43-1c5426c2dfc1">
+      <Execution timeOut="1800000" id="c001bfb6-79cf-4673-9174-5870802cac91" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_completed_flag_when_the_last_word_has_been_processed" />
+    </UnitTest>
+    <UnitTest name="Should_calulate_and_return_type_speed" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="9a803c8c-d63a-c875-edcd-79daebc8acbb">
+      <Execution timeOut="1800000" id="02ccf32c-1a15-4009-bea6-955c530a047f" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.MainViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_calulate_and_return_type_speed" />
+    </UnitTest>
+    <UnitTest name="Should_set_the_completed_flag_when_the_last_word_has_been_processed" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="aaecfb31-57a6-55b3-93f3-20aee1425cb5">
+      <Execution timeOut="1800000" id="59148f65-a774-47c3-8432-a64a279d2bc2" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.MainViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_completed_flag_when_the_last_word_has_been_processed" />
+    </UnitTest>
+    <UnitTest name="Should_calulate_and_return_type_speed" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="7769eaa6-497f-dacf-de99-e86e773cadc6">
+      <Execution timeOut="1800000" id="26c0c9ec-1558-46c3-829f-6067a410f45a" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_calulate_and_return_type_speed" />
+    </UnitTest>
+    <UnitTest name="Should_Pass_The_letter_to_the_current_word_viewmodel" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="1ee798ed-32a0-8d93-805e-a33bfa8a8fb7">
+      <Execution timeOut="1800000" id="fcc5d309-095a-4276-8c97-a7ffa776c290" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Pass_The_letter_to_the_current_word_viewmodel" />
+    </UnitTest>
+    <UnitTest name="ShouldSetTheStartTimeOnProcessStart" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="10fe7e01-a2f3-55bc-ee27-a170d021d54f">
+      <Execution timeOut="1800000" id="3eda5dd9-2bf3-400c-9420-d2c92f2566c6" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSetTheStartTimeOnProcessStart" />
+    </UnitTest>
+    <UnitTest name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3">
+      <Execution timeOut="1800000" id="134be887-a568-4333-8157-d31e101f1f0f" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="69dfb3d8-b49f-39f5-f3e0-1b2a4144efbd">
+      <Execution timeOut="1800000" id="fc409bd9-32cb-4d01-b354-b2f8da945388" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.UnitTest1, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ShouldMatchCharKeyWithWordLetter" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="f21ef2a1-a532-ebe9-1048-cc013e958dad">
+      <Execution timeOut="1800000" id="bcc7546c-5ee1-4be5-81e0-55de6e0602b9" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldMatchCharKeyWithWordLetter" />
+    </UnitTest>
+    <UnitTest name="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="26728450-04b7-4a8c-efea-70fef7ec8e9d">
+      <Execution timeOut="1800000" id="beff47ee-1a8a-47aa-a29a-4b0faa399f1d" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" />
+    </UnitTest>
+    <UnitTest name="ShouldFireMenuViewCloseEvent" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="a368f72d-8afc-b3cc-0dc5-6100dbc7da92">
+      <Execution timeOut="1800000" id="4f3686cf-4980-47cf-833b-e4059bded9a0" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenMenuViewModelIsAskedToPlayGameOne, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldFireMenuViewCloseEvent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69dfb3d8-b49f-39f5-f3e0-1b2a4144efbd" executionId="fc409bd9-32cb-4d01-b354-b2f8da945388" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7769eaa6-497f-dacf-de99-e86e773cadc6" executionId="26c0c9ec-1558-46c3-829f-6067a410f45a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="648157f9-f5bc-a1a3-5d43-1c5426c2dfc1" executionId="c001bfb6-79cf-4673-9174-5870802cac91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" executionId="134be887-a568-4333-8157-d31e101f1f0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a803c8c-d63a-c875-edcd-79daebc8acbb" executionId="02ccf32c-1a15-4009-bea6-955c530a047f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aaecfb31-57a6-55b3-93f3-20aee1425cb5" executionId="59148f65-a774-47c3-8432-a64a279d2bc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03abf6ce-3b1f-929f-8747-edf5af7ff1cf" executionId="c7ac9892-9049-47bc-bd83-1fd93bbfa551" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86554665-dc66-0791-30b3-396bf871fed3" executionId="23ae7e86-09cc-45e1-b455-289802ec2f32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a38c16d-ee06-7a93-80fe-c5421a186855" executionId="5848fd58-fbd2-48ed-bcc8-7166298bf87b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba" executionId="79f2f4da-4aae-4a55-b034-4bdb0e88464a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a368f72d-8afc-b3cc-0dc5-6100dbc7da92" executionId="4f3686cf-4980-47cf-833b-e4059bded9a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26728450-04b7-4a8c-efea-70fef7ec8e9d" executionId="beff47ee-1a8a-47aa-a29a-4b0faa399f1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ee798ed-32a0-8d93-805e-a33bfa8a8fb7" executionId="fcc5d309-095a-4276-8c97-a7ffa776c290" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f21ef2a1-a532-ebe9-1048-cc013e958dad" executionId="bcc7546c-5ee1-4be5-81e0-55de6e0602b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10fe7e01-a2f3-55bc-ee27-a170d021d54f" executionId="3eda5dd9-2bf3-400c-9420-d2c92f2566c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d00b2144-820f-6d3d-014c-c2637a035d1c" executionId="282aee3c-097e-43a6-94eb-927f15d6022c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fc409bd9-32cb-4d01-b354-b2f8da945388" testId="69dfb3d8-b49f-39f5-f3e0-1b2a4144efbd" testName="TestMethod1" computerName="UK01273" duration="00:00:00.0191481" startTime="2010-12-20T12:05:55.1542507+00:00" endTime="2010-12-20T12:05:55.2372507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc409bd9-32cb-4d01-b354-b2f8da945388">
+    </UnitTestResult>
+    <UnitTestResult executionId="26c0c9ec-1558-46c3-829f-6067a410f45a" testId="7769eaa6-497f-dacf-de99-e86e773cadc6" testName="Should_calulate_and_return_type_speed" computerName="UK01273" duration="00:00:00.2626564" startTime="2010-12-20T12:05:55.2422507+00:00" endTime="2010-12-20T12:05:55.5102507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26c0c9ec-1558-46c3-829f-6067a410f45a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel.Should_calulate_and_return_type_speed threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at AdemolaTyper.ViewModels.GameOneViewModel.LoadData() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 59
+   at AdemolaTyper.ViewModels.GameOneViewModel.get_Words() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 45
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWord(WordViewModel wordToAdd) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 160
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWords(ObservableCollection`1 initializeDummyData) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 143
+   at AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel.Should_calulate_and_return_type_speed() in C:\Dev\AdeTyper\AdemolaTyperTest\ViewModels\GameOne\WhenProcessingGameOneViewModel.cs:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c001bfb6-79cf-4673-9174-5870802cac91" testId="648157f9-f5bc-a1a3-5d43-1c5426c2dfc1" testName="Should_set_the_completed_flag_when_the_last_word_has_been_processed" computerName="UK01273" duration="00:00:00.0020035" startTime="2010-12-20T12:05:55.5142507+00:00" endTime="2010-12-20T12:05:55.5172507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c001bfb6-79cf-4673-9174-5870802cac91">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel.Should_set_the_completed_flag_when_the_last_word_has_been_processed threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at AdemolaTyper.ViewModels.GameOneViewModel.LoadData() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 59
+   at AdemolaTyper.ViewModels.GameOneViewModel.get_Words() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 45
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWord(WordViewModel wordToAdd) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 160
+   at AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel.Should_set_the_completed_flag_when_the_last_word_has_been_processed() in C:\Dev\AdeTyper\AdemolaTyperTest\ViewModels\GameOne\WhenProcessingGameOneViewModel.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="134be887-a568-4333-8157-d31e101f1f0f" testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" testName="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" computerName="UK01273" duration="00:00:00.0112446" startTime="2010-12-20T12:05:55.5192507+00:00" endTime="2010-12-20T12:05:55.5322507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="134be887-a568-4333-8157-d31e101f1f0f">
+    </UnitTestResult>
+    <UnitTestResult executionId="02ccf32c-1a15-4009-bea6-955c530a047f" testId="9a803c8c-d63a-c875-edcd-79daebc8acbb" testName="Should_calulate_and_return_type_speed" computerName="UK01273" duration="00:00:00.0021546" startTime="2010-12-20T12:05:55.5342507+00:00" endTime="2010-12-20T12:05:55.5372507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02ccf32c-1a15-4009-bea6-955c530a047f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdemolaTyperTest.ViewModels.MainViewModelTests.Should_calulate_and_return_type_speed threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at AdemolaTyper.ViewModels.GameOneViewModel.LoadData() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 59
+   at AdemolaTyper.ViewModels.GameOneViewModel.get_Words() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 45
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWord(WordViewModel wordToAdd) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 160
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWords(ObservableCollection`1 initializeDummyData) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 143
+   at AdemolaTyperTest.ViewModels.MainViewModelTests.Should_calulate_and_return_type_speed() in C:\Dev\AdeTyper\AdemolaTyperTest\ViewModels\MainViewModelTests.cs:line 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59148f65-a774-47c3-8432-a64a279d2bc2" testId="aaecfb31-57a6-55b3-93f3-20aee1425cb5" testName="Should_set_the_completed_flag_when_the_last_word_has_been_processed" computerName="UK01273" duration="00:00:00.0014151" startTime="2010-12-20T12:05:55.5402507+00:00" endTime="2010-12-20T12:05:55.5422507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59148f65-a774-47c3-8432-a64a279d2bc2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdemolaTyperTest.ViewModels.MainViewModelTests.Should_set_the_completed_flag_when_the_last_word_has_been_processed threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at AdemolaTyper.ViewModels.GameOneViewModel.LoadData() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 59
+   at AdemolaTyper.ViewModels.GameOneViewModel.get_Words() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 45
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWord(WordViewModel wordToAdd) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 160
+   at AdemolaTyperTest.ViewModels.MainViewModelTests.Should_set_the_completed_flag_when_the_last_word_has_been_processed() in C:\Dev\AdeTyper\AdemolaTyperTest\ViewModels\MainViewModelTests.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7ac9892-9049-47bc-bd83-1fd93bbfa551" testId="03abf6ce-3b1f-929f-8747-edf5af7ff1cf" testName="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" computerName="UK01273" duration="00:00:00.0015380" startTime="2010-12-20T12:05:55.5442507+00:00" endTime="2010-12-20T12:05:55.5462507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7ac9892-9049-47bc-bd83-1fd93bbfa551">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdemolaTyperTest.ViewModels.MainViewModelTests.Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at AdemolaTyper.ViewModels.GameOneViewModel.LoadData() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 59
+   at AdemolaTyper.ViewModels.GameOneViewModel.get_Words() in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 45
+   at AdemolaTyper.ViewModels.GameOneViewModel.AddWord(WordViewModel wordToAdd) in C:\Dev\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 160
+   at AdemolaTyperTest.ViewModels.MainViewModelTests.Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired() in C:\Dev\AdeTyper\AdemolaTyperTest\ViewModels\MainViewModelTests.cs:line 16
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23ae7e86-09cc-45e1-b455-289802ec2f32" testId="86554665-dc66-0791-30b3-396bf871fed3" testName="ShouldSetTheCurrentWorkspaceToGameOneViewModel" computerName="UK01273" duration="00:00:00.0050872" startTime="2010-12-20T12:05:55.5492507+00:00" endTime="2010-12-20T12:05:55.5552507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23ae7e86-09cc-45e1-b455-289802ec2f32">
+    </UnitTestResult>
+    <UnitTestResult executionId="5848fd58-fbd2-48ed-bcc8-7166298bf87b" testId="2a38c16d-ee06-7a93-80fe-c5421a186855" testName="ShouldLoadUpTheOptionsViewModelAsTheMainViewModel" computerName="UK01273" duration="00:00:00.0008311" startTime="2010-12-20T12:05:55.5582507+00:00" endTime="2010-12-20T12:05:55.5872507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5848fd58-fbd2-48ed-bcc8-7166298bf87b">
+    </UnitTestResult>
+    <UnitTestResult executionId="79f2f4da-4aae-4a55-b034-4bdb0e88464a" testId="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba" testName="ShouldFireGameOneEvent" computerName="UK01273" duration="00:00:00.0053698" startTime="2010-12-20T12:05:55.5902507+00:00" endTime="2010-12-20T12:05:55.6022507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79f2f4da-4aae-4a55-b034-4bdb0e88464a">
+      <Output>
+        <DebugTrace>TypeFaceViewModel () (28016690) Finalized
+GameOneViewModel () (20271583) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f3686cf-4980-47cf-833b-e4059bded9a0" testId="a368f72d-8afc-b3cc-0dc5-6100dbc7da92" testName="ShouldFireMenuViewCloseEvent" computerName="UK01273" duration="00:00:00.0002416" startTime="2010-12-20T12:05:55.6052507+00:00" endTime="2010-12-20T12:05:55.6072507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f3686cf-4980-47cf-833b-e4059bded9a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="beff47ee-1a8a-47aa-a29a-4b0faa399f1d" testId="26728450-04b7-4a8c-efea-70fef7ec8e9d" testName="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" computerName="UK01273" duration="00:00:00.0134290" startTime="2010-12-20T12:05:55.6092507+00:00" endTime="2010-12-20T12:05:55.6352507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="beff47ee-1a8a-47aa-a29a-4b0faa399f1d">
+      <Output>
+        <DebugTrace>WordViewModel () (42058221) Finalized
+GameOneViewModel () (57827162) Finalized
+TypeFaceViewModel () (65931876) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcc5d309-095a-4276-8c97-a7ffa776c290" testId="1ee798ed-32a0-8d93-805e-a33bfa8a8fb7" testName="Should_Pass_The_letter_to_the_current_word_viewmodel" computerName="UK01273" duration="00:00:00.0143881" startTime="2010-12-20T12:05:55.6382507+00:00" endTime="2010-12-20T12:05:55.6632507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcc5d309-095a-4276-8c97-a7ffa776c290">
+      <Output>
+        <DebugTrace>WordViewModel () (12475327) Finalized
+TypeFaceViewModel () (20929853) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bcc7546c-5ee1-4be5-81e0-55de6e0602b9" testId="f21ef2a1-a532-ebe9-1048-cc013e958dad" testName="ShouldMatchCharKeyWithWordLetter" computerName="UK01273" duration="00:00:00.0081454" startTime="2010-12-20T12:05:55.6672507+00:00" endTime="2010-12-20T12:05:55.6812507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcc7546c-5ee1-4be5-81e0-55de6e0602b9">
+      <Output>
+        <DebugTrace>TypeFaceViewModel () (7172937) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3eda5dd9-2bf3-400c-9420-d2c92f2566c6" testId="10fe7e01-a2f3-55bc-ee27-a170d021d54f" testName="ShouldSetTheStartTimeOnProcessStart" computerName="UK01273" duration="00:00:00.0076922" startTime="2010-12-20T12:05:55.6852507+00:00" endTime="2010-12-20T12:05:55.7002507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3eda5dd9-2bf3-400c-9420-d2c92f2566c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="282aee3c-097e-43a6-94eb-927f15d6022c" testId="d00b2144-820f-6d3d-014c-c2637a035d1c" testName="ShouldStoreTheCurrentTypedLetter" computerName="UK01273" duration="00:00:00.0044151" startTime="2010-12-20T12:05:55.7052507+00:00" endTime="2010-12-20T12:05:55.7172507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="282aee3c-097e-43a6-94eb-927f15d6022c">
+      <Output>
+        <DebugTrace>GameOneViewModel () (47861360) Finalized
+TypeFaceViewModel () (41727158) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

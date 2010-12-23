@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a90f37f3-8560-41cc-b689-851215cd2524" name="abdulrahaman@WIN7-64-V8 2010-12-18 11:44:26" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-12-18 11_44_26" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-18T11:44:26.4656000+00:00" queuing="2010-12-18T11:44:26.7506000+00:00" start="2010-12-18T11:44:26.9396000+00:00" finish="2010-12-18T11:44:27.4616000+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="26728450-04b7-4a8c-efea-70fef7ec8e9d">
+      <Execution timeOut="1800000" id="ab3147cd-53f3-4619-8b2e-d163403285c0" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26728450-04b7-4a8c-efea-70fef7ec8e9d" executionId="ab3147cd-53f3-4619-8b2e-d163403285c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ab3147cd-53f3-4619-8b2e-d163403285c0" testId="26728450-04b7-4a8c-efea-70fef7ec8e9d" testName="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" computerName="WIN7-64-V8" duration="00:00:00.2454906" startTime="2010-12-18T11:44:27.0666000+00:00" endTime="2010-12-18T11:44:27.3836000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab3147cd-53f3-4619-8b2e-d163403285c0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdemolaTyperTest.ViewModels.WordViewModelTests.Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at AdemolaTyper.ViewModels.HomeWindowViewModel.CurrentWordProcessed() in D:\Development\AdeTyper\AdeTyper\AdemolaTyper\ViewModels\HomeWindowViewModel.cs:line 95
+   at AdemolaTyper.ViewModels.HomeWindowViewModel.&lt;get_CurrentWordIsProcessed&gt;b__2(Object param) in D:\Development\AdeTyper\AdeTyper\AdemolaTyper\ViewModels\HomeWindowViewModel.cs:line 87
+   at MVVMLib.Commands.RelayCommand.Execute(Object parameter) in D:\Development\AdeTyper\AdeTyper\MVVMLib\Commands\RelayCommand.cs:line 67
+   at AdemolaTyper.ViewModels.WordViewModel.WordTypeReceived(Object letterTyped) in D:\Development\AdeTyper\AdeTyper\AdemolaTyper\ViewModels\WordViewModel.cs:line 121
+   at AdemolaTyper.ViewModels.WordViewModel.&lt;get_WordTyped&gt;b__0(Object param) in D:\Development\AdeTyper\AdeTyper\AdemolaTyper\ViewModels\WordViewModel.cs:line 87
+   at MVVMLib.Commands.RelayCommand.Execute(Object parameter) in D:\Development\AdeTyper\AdeTyper\MVVMLib\Commands\RelayCommand.cs:line 67
+   at AdemolaTyper.ViewModels.GameOneViewModel.keyPressed(Object key) in D:\Development\AdeTyper\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 92
+   at AdemolaTyper.ViewModels.GameOneViewModel.&lt;get_KeyPressReceivedCommand&gt;b__1(Object param) in D:\Development\AdeTyper\AdeTyper\AdemolaTyper\ViewModels\GameOneViewModel.cs:line 77
+   at MVVMLib.Commands.RelayCommand.Execute(Object parameter) in D:\Development\AdeTyper\AdeTyper\MVVMLib\Commands\RelayCommand.cs:line 67
+   at AdemolaTyperTest.ViewModels.WordViewModelTests.Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars() in D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\ViewModels\WordViewModelTests.cs:line 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

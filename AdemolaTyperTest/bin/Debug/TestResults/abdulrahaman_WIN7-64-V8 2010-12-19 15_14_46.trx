@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b8e2b2f4-4302-427f-8d94-c21ec76d5331" name="abdulrahaman@WIN7-64-V8 2010-12-19 15:14:46" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-12-19 15_14_46" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-19T15:14:46.7706000+00:00" queuing="2010-12-19T15:14:47.0456000+00:00" start="2010-12-19T15:14:47.2446000+00:00" finish="2010-12-19T15:14:47.5516000+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3">
+      <Execution timeOut="1800000" id="150d210d-8ccb-4eaa-b930-8313cbc13a64" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" executionId="150d210d-8ccb-4eaa-b930-8313cbc13a64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="150d210d-8ccb-4eaa-b930-8313cbc13a64" testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" testName="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" computerName="WIN7-64-V8" duration="00:00:00.0309305" startTime="2010-12-19T15:14:47.3666000+00:00" endTime="2010-12-19T15:14:47.4706000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="150d210d-8ccb-4eaa-b930-8313cbc13a64">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8c57904d-d96c-46b3-a80e-86b7b49f2bee" name="abdulrahaman@WIN7-64-V8 2010-12-17 21:37:50" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-12-17 21_37_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-17T21:37:50.0214000+00:00" queuing="2010-12-17T21:37:50.3094000+00:00" start="2010-12-17T21:37:50.4974000+00:00" finish="2010-12-17T21:37:50.8454000+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldFireMenuViewCloseEvent" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="a368f72d-8afc-b3cc-0dc5-6100dbc7da92">
+      <Execution timeOut="1800000" id="12322019-6609-4572-971a-73832cafd5be" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenMenuViewModelIsAskedToPlayGameOne, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldFireMenuViewCloseEvent" />
+    </UnitTest>
+    <UnitTest name="ShouldFireGameOneEvent" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba">
+      <Execution timeOut="1800000" id="3d7edeb3-149e-48d6-86d6-b54f3c279b49" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenMenuViewModelIsAskedToPlayGameOne, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldFireGameOneEvent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba" executionId="3d7edeb3-149e-48d6-86d6-b54f3c279b49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a368f72d-8afc-b3cc-0dc5-6100dbc7da92" executionId="12322019-6609-4572-971a-73832cafd5be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3d7edeb3-149e-48d6-86d6-b54f3c279b49" testId="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba" testName="ShouldFireGameOneEvent" computerName="WIN7-64-V8" duration="00:00:00.0700663" startTime="2010-12-17T21:37:50.6214000+00:00" endTime="2010-12-17T21:37:50.7644000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d7edeb3-149e-48d6-86d6-b54f3c279b49">
+    </UnitTestResult>
+    <UnitTestResult executionId="12322019-6609-4572-971a-73832cafd5be" testId="a368f72d-8afc-b3cc-0dc5-6100dbc7da92" testName="ShouldFireMenuViewCloseEvent" computerName="WIN7-64-V8" duration="00:00:00.0001839" startTime="2010-12-17T21:37:50.7674000+00:00" endTime="2010-12-17T21:37:50.7684000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12322019-6609-4572-971a-73832cafd5be">
+    </UnitTestResult>
+  </Results>
+</TestRun>

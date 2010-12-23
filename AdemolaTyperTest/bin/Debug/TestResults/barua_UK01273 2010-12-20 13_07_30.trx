@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9dcdf3d1-fd6c-48eb-95c4-e15d05810080" name="barua@UK01273 2010-12-20 13:07:30" runUser="BFL\barua" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="barua_UK01273 2010-12-20 13_07_30" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-20T13:07:30.6542507+00:00" queuing="2010-12-20T13:07:30.9842507+00:00" start="2010-12-20T13:07:31.1922507+00:00" finish="2010-12-20T13:07:31.8022507+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <DebugTrace>GameOneViewModel () (170067) Finalized
+GameOneViewModel () (66725984) Finalized
+GameOneViewModel () (28378781) Finalized
+GameOneViewModel () (5865226) Finalized
+GameOneViewModel () (40426918) Finalized
+GameOneViewModel () (39284339) Finalized
+GameOneViewModel () (47809295) Finalized
+GameOneViewModel () (59021035) Finalized
+GameOneViewModel () (16329976) Finalized
+GameOneViewModel () (4624693) Finalized
+GameOneViewModel () (16715682) Finalized
+GameOneViewModel () (33027134) Finalized
+GameOneViewModel () (34179851) Finalized
+GameOneViewModel () (13574152) Finalized
+GameOneViewModel () (57081653) Finalized
+GameOneViewModel () (37576762) Finalized
+GameOneViewModel () (55560918) Finalized
+MenuViewModel () (5004450) Finalized
+GameOneViewModel () (15016962) Finalized
+GameOneViewModel () (66632273) Finalized
+GameOneViewModel () (53779345) Finalized
+GameOneViewModel () (18170817) Finalized
+GameOneViewModel () (10890977) Finalized
+GameOneViewModel () (21092592) Finalized
+GameOneViewModel () (38911472) Finalized
+WordViewModel () (52511717) Finalized
+TypeFaceViewModel () (42966447) Finalized
+TypeFaceViewModel () (55068905) Finalized
+WordViewModel () (4949) Finalized
+TypeFaceViewModel () (54445364) Finalized
+TypeFaceViewModel () (7522997) Finalized
+TypeFaceViewModel () (32492390) Finalized
+TypeFaceViewModel () (61297478) Finalized
+TypeFaceViewModel () (9154810) Finalized
+GameOneViewModel () (18754129) Finalized
+TypeFaceViewModel () (25996376) Finalized
+TypeFaceViewModel () (57811726) Finalized
+GameOneViewModel () (5536373) Finalized
+GameOneViewModel () (29514839) Finalized
+TypeFaceViewModel () (1605539) Finalized
+WordViewModel () (59523625) Finalized
+TypeFaceViewModel () (19412793) Finalized
+TypeFaceViewModel () (42157861) Finalized
+WordViewModel () (37994933) Finalized
+WordViewModel () (37514492) Finalized
+TypeFaceViewModel () (51461878) Finalized
+TypeFaceViewModel () (35082913) Finalized
+TypeFaceViewModel () (3920892) Finalized
+TypeFaceViewModel () (65466119) Finalized
+WordViewModel () (37838806) Finalized
+TypeFaceViewModel () (51257679) Finalized
+GameOneViewModel () (33731848) Finalized
+TypeFaceViewModel () (30650865) Finalized
+GameOneViewModel () (46539785) Finalized
+WordViewModel () (1185618) Finalized
+TypeFaceViewModel () (10655691) Finalized
+WordViewModel () (6223748) Finalized
+GameOneViewModel () (59670218) Finalized
+TypeFaceViewModel () (3039238) Finalized
+GameOneViewModel () (6977330) Finalized
+WordViewModel () (46530638) Finalized
+TypeFaceViewModel () (50542425) Finalized
+TypeFaceViewModel () (31676501) Finalized
+TypeFaceViewModel () (15114049) Finalized
+TypeFaceViewModel () (34359325) Finalized
+TypeFaceViewModel () (59936488) Finalized
+TypeFaceViewModel () (62304164) Finalized
+TypeFaceViewModel () (7661136) Finalized
+TypeFaceViewModel () (55078636) Finalized
+</DebugTrace>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldSetTheCurrentWorkspaceToGameOneViewModel" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="86554665-dc66-0791-30b3-396bf871fed3">
+      <Execution timeOut="1800000" id="0651ea61-d605-4d81-a167-51ec3b92ce54" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenHomeViewModelIsAskedToCloseMenuView, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSetTheCurrentWorkspaceToGameOneViewModel" />
+    </UnitTest>
+    <UnitTest name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3">
+      <Execution timeOut="1800000" id="80b975f9-db27-41c8-9185-cff276a46f76" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" />
+    </UnitTest>
+    <UnitTest name="ShouldStoreTheCurrentTypedLetter" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="d00b2144-820f-6d3d-014c-c2637a035d1c">
+      <Execution timeOut="1800000" id="0b1bcf01-baeb-47d9-a518-b247267950c2" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldStoreTheCurrentTypedLetter" />
+    </UnitTest>
+    <UnitTest name="ShouldFireMenuViewCloseEvent" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="a368f72d-8afc-b3cc-0dc5-6100dbc7da92">
+      <Execution timeOut="1800000" id="536b9919-d022-46a6-9a85-1757faa3a499" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenMenuViewModelIsAskedToPlayGameOne, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldFireMenuViewCloseEvent" />
+    </UnitTest>
+    <UnitTest name="ShouldLoadUpTheOptionsViewModelAsTheMainViewModel" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="2a38c16d-ee06-7a93-80fe-c5421a186855">
+      <Execution timeOut="1800000" id="6031159b-d4a5-4949-8931-59861708da69" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenHomeViewModelIsInstantiated, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldLoadUpTheOptionsViewModelAsTheMainViewModel" />
+    </UnitTest>
+    <UnitTest name="ShouldFireGameOneEvent" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba">
+      <Execution timeOut="1800000" id="74fc38be-d264-4119-8a9c-d09a32454a6d" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WhenMenuViewModelIsAskedToPlayGameOne, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldFireGameOneEvent" />
+    </UnitTest>
+    <UnitTest name="Should_set_the_completed_flag_when_the_last_word_has_been_processed" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="648157f9-f5bc-a1a3-5d43-1c5426c2dfc1">
+      <Execution timeOut="1800000" id="f2938295-4785-4d69-8304-cd3b354b9999" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_completed_flag_when_the_last_word_has_been_processed" />
+    </UnitTest>
+    <UnitTest name="Should_calulate_and_return_type_speed" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="7769eaa6-497f-dacf-de99-e86e773cadc6">
+      <Execution timeOut="1800000" id="4f72d297-e7c8-41e1-9712-0d9eee79fe68" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_calulate_and_return_type_speed" />
+    </UnitTest>
+    <UnitTest name="ShouldSetTheStartTimeOnProcessStart" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="10fe7e01-a2f3-55bc-ee27-a170d021d54f">
+      <Execution timeOut="1800000" id="a71805de-410e-47b5-a3b3-b82f853ebff8" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSetTheStartTimeOnProcessStart" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="69dfb3d8-b49f-39f5-f3e0-1b2a4144efbd">
+      <Execution timeOut="1800000" id="1c7a5a92-f3b9-48d5-b5e0-205c4082426a" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.UnitTest1, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ShouldMatchCharKeyWithWordLetter" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="f21ef2a1-a532-ebe9-1048-cc013e958dad">
+      <Execution timeOut="1800000" id="e31b57c0-2884-4329-83cc-a1a977bfdbcf" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldMatchCharKeyWithWordLetter" />
+    </UnitTest>
+    <UnitTest name="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="26728450-04b7-4a8c-efea-70fef7ec8e9d">
+      <Execution timeOut="1800000" id="bd7aeea5-df17-471e-aed5-6afb5fafe54b" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" />
+    </UnitTest>
+    <UnitTest name="Should_Pass_The_letter_to_the_current_word_viewmodel" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="1ee798ed-32a0-8d93-805e-a33bfa8a8fb7">
+      <Execution timeOut="1800000" id="695cc3dc-d161-4465-91c3-72ae6339c3a8" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.WordViewModelTests, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_Pass_The_letter_to_the_current_word_viewmodel" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69dfb3d8-b49f-39f5-f3e0-1b2a4144efbd" executionId="1c7a5a92-f3b9-48d5-b5e0-205c4082426a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7769eaa6-497f-dacf-de99-e86e773cadc6" executionId="4f72d297-e7c8-41e1-9712-0d9eee79fe68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="648157f9-f5bc-a1a3-5d43-1c5426c2dfc1" executionId="f2938295-4785-4d69-8304-cd3b354b9999" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" executionId="80b975f9-db27-41c8-9185-cff276a46f76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86554665-dc66-0791-30b3-396bf871fed3" executionId="0651ea61-d605-4d81-a167-51ec3b92ce54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a38c16d-ee06-7a93-80fe-c5421a186855" executionId="6031159b-d4a5-4949-8931-59861708da69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba" executionId="74fc38be-d264-4119-8a9c-d09a32454a6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a368f72d-8afc-b3cc-0dc5-6100dbc7da92" executionId="536b9919-d022-46a6-9a85-1757faa3a499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26728450-04b7-4a8c-efea-70fef7ec8e9d" executionId="bd7aeea5-df17-471e-aed5-6afb5fafe54b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ee798ed-32a0-8d93-805e-a33bfa8a8fb7" executionId="695cc3dc-d161-4465-91c3-72ae6339c3a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f21ef2a1-a532-ebe9-1048-cc013e958dad" executionId="e31b57c0-2884-4329-83cc-a1a977bfdbcf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10fe7e01-a2f3-55bc-ee27-a170d021d54f" executionId="a71805de-410e-47b5-a3b3-b82f853ebff8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d00b2144-820f-6d3d-014c-c2637a035d1c" executionId="0b1bcf01-baeb-47d9-a518-b247267950c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c7a5a92-f3b9-48d5-b5e0-205c4082426a" testId="69dfb3d8-b49f-39f5-f3e0-1b2a4144efbd" testName="TestMethod1" computerName="UK01273" duration="00:00:00.0136986" startTime="2010-12-20T13:07:31.2382507+00:00" endTime="2010-12-20T13:07:31.3112507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c7a5a92-f3b9-48d5-b5e0-205c4082426a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f72d297-e7c8-41e1-9712-0d9eee79fe68" testId="7769eaa6-497f-dacf-de99-e86e773cadc6" testName="Should_calulate_and_return_type_speed" computerName="UK01273" duration="00:00:00.2425608" startTime="2010-12-20T13:07:31.3142507+00:00" endTime="2010-12-20T13:07:31.5572507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f72d297-e7c8-41e1-9712-0d9eee79fe68">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2938295-4785-4d69-8304-cd3b354b9999" testId="648157f9-f5bc-a1a3-5d43-1c5426c2dfc1" testName="Should_set_the_completed_flag_when_the_last_word_has_been_processed" computerName="UK01273" duration="00:00:00.0256545" startTime="2010-12-20T13:07:31.5602507+00:00" endTime="2010-12-20T13:07:31.5872507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2938295-4785-4d69-8304-cd3b354b9999">
+    </UnitTestResult>
+    <UnitTestResult executionId="80b975f9-db27-41c8-9185-cff276a46f76" testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" testName="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" computerName="UK01273" duration="00:00:00.0028738" startTime="2010-12-20T13:07:31.5902507+00:00" endTime="2010-12-20T13:07:31.5962507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80b975f9-db27-41c8-9185-cff276a46f76">
+    </UnitTestResult>
+    <UnitTestResult executionId="0651ea61-d605-4d81-a167-51ec3b92ce54" testId="86554665-dc66-0791-30b3-396bf871fed3" testName="ShouldSetTheCurrentWorkspaceToGameOneViewModel" computerName="UK01273" duration="00:00:00.0059408" startTime="2010-12-20T13:07:31.5992507+00:00" endTime="2010-12-20T13:07:31.6062507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0651ea61-d605-4d81-a167-51ec3b92ce54">
+    </UnitTestResult>
+    <UnitTestResult executionId="6031159b-d4a5-4949-8931-59861708da69" testId="2a38c16d-ee06-7a93-80fe-c5421a186855" testName="ShouldLoadUpTheOptionsViewModelAsTheMainViewModel" computerName="UK01273" duration="00:00:00.0012506" startTime="2010-12-20T13:07:31.6092507+00:00" endTime="2010-12-20T13:07:31.6112507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6031159b-d4a5-4949-8931-59861708da69">
+    </UnitTestResult>
+    <UnitTestResult executionId="74fc38be-d264-4119-8a9c-d09a32454a6d" testId="298bfbc1-b9de-e7db-4e1e-b187c97ce7ba" testName="ShouldFireGameOneEvent" computerName="UK01273" duration="00:00:00.0100487" startTime="2010-12-20T13:07:31.6142507+00:00" endTime="2010-12-20T13:07:31.6302507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74fc38be-d264-4119-8a9c-d09a32454a6d">
+      <Output>
+        <DebugTrace>GameOneViewModel () (56655216) Finalized
+GameOneViewModel () (37901981) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="536b9919-d022-46a6-9a85-1757faa3a499" testId="a368f72d-8afc-b3cc-0dc5-6100dbc7da92" testName="ShouldFireMenuViewCloseEvent" computerName="UK01273" duration="00:00:00.0069494" startTime="2010-12-20T13:07:31.6342507+00:00" endTime="2010-12-20T13:07:31.6442507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="536b9919-d022-46a6-9a85-1757faa3a499">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd7aeea5-df17-471e-aed5-6afb5fafe54b" testId="26728450-04b7-4a8c-efea-70fef7ec8e9d" testName="Should_fire_command_on_main_viewmodel_to_indicate_the_word_has_received_all_chars" computerName="UK01273" duration="00:00:00.0054948" startTime="2010-12-20T13:07:31.6472507+00:00" endTime="2010-12-20T13:07:31.6612507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd7aeea5-df17-471e-aed5-6afb5fafe54b">
+      <Output>
+        <DebugTrace>GameOneViewModel () (11823011) Finalized
+GameOneViewModel () (40272544) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="695cc3dc-d161-4465-91c3-72ae6339c3a8" testId="1ee798ed-32a0-8d93-805e-a33bfa8a8fb7" testName="Should_Pass_The_letter_to_the_current_word_viewmodel" computerName="UK01273" duration="00:00:00.0090802" startTime="2010-12-20T13:07:31.6662507+00:00" endTime="2010-12-20T13:07:31.6782507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="695cc3dc-d161-4465-91c3-72ae6339c3a8">
+      <Output>
+        <DebugTrace>GameOneViewModel () (51272160) Finalized
+GameOneViewModel () (37693632) Finalized
+GameOneViewModel () (33203855) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e31b57c0-2884-4329-83cc-a1a977bfdbcf" testId="f21ef2a1-a532-ebe9-1048-cc013e958dad" testName="ShouldMatchCharKeyWithWordLetter" computerName="UK01273" duration="00:00:00.0056158" startTime="2010-12-20T13:07:31.6822507+00:00" endTime="2010-12-20T13:07:31.6952507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e31b57c0-2884-4329-83cc-a1a977bfdbcf">
+      <Output>
+        <DebugTrace>WordViewModel () (15978327) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a71805de-410e-47b5-a3b3-b82f853ebff8" testId="10fe7e01-a2f3-55bc-ee27-a170d021d54f" testName="ShouldSetTheStartTimeOnProcessStart" computerName="UK01273" duration="00:00:00.0072665" startTime="2010-12-20T13:07:31.6982507+00:00" endTime="2010-12-20T13:07:31.7112507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a71805de-410e-47b5-a3b3-b82f853ebff8">
+      <Output>
+        <DebugTrace>TypeFaceViewModel () (23759731) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b1bcf01-baeb-47d9-a518-b247267950c2" testId="d00b2144-820f-6d3d-014c-c2637a035d1c" testName="ShouldStoreTheCurrentTypedLetter" computerName="UK01273" duration="00:00:00.0041220" startTime="2010-12-20T13:07:31.7142507+00:00" endTime="2010-12-20T13:07:31.7252507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b1bcf01-baeb-47d9-a518-b247267950c2">
+      <Output>
+        <DebugTrace>GameOneViewModel () (48197359) Finalized
+GameOneViewModel () (31087109) Finalized
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

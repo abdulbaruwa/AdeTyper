@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ba77267d-86a9-4ac2-b6e1-7457eb6f88ad" name="barua@UK01273 2010-12-20 11:59:16" runUser="BFL\barua" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="barua_UK01273 2010-12-20 11_59_16" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-20T11:59:16.1582507+00:00" queuing="2010-12-20T11:59:16.6602507+00:00" start="2010-12-20T11:59:17.0442507+00:00" finish="2010-12-20T12:04:16.6822507+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="UK01273" outcome="Error" timestamp="2010-12-20T12:04:16.1592507+00:00">
+        <Text>The connection to the controller was lost.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" storage="c:\dev\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3">
+      <Execution timeOut="1800000" id="3e7f8d97-89d8-4c69-a38e-6f7883420e1e" />
+      <TestMethod codeBase="C:/Dev/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.WhenProcessingGameOneViewModel, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" executionId="3e7f8d97-89d8-4c69-a38e-6f7883420e1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3e7f8d97-89d8-4c69-a38e-6f7883420e1e" testId="0115b9c7-1e7a-61ce-8fe7-657e43ba04c3" testName="Should_set_the_CurrentWord_when_the_CurrentWordIsProcessed_Command_is_fired" computerName="UK01273" startTime="2010-12-20T11:59:17.1242507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e7f8d97-89d8-4c69-a38e-6f7883420e1e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

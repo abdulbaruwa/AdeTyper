@@ -1,0 +1,411 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="11" />
+      <Item value="OnPropertyChanged`0" priority="5" />
+      <Item value="ViewModelBase`0" priority="3" />
+      <Item value="public" priority="22" />
+      <Item value="bool" priority="3" />
+      <Item value="string" priority="6" />
+      <Item value="TypeTests`0" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="OptionsViewModel`0" priority="3" />
+      <Item value="return" priority="33" />
+      <Item value="value" priority="0" />
+      <Item value="EventArgs`0" priority="1" />
+      <Item value="MainViewModel`0" priority="0" />
+      <Item value="mainViewModel" priority="1" />
+      <Item value="throw" priority="1" />
+      <Item value="ArgumentException`0" priority="0" />
+      <Item value="this" priority="7" />
+      <Item value="new" priority="48" />
+      <Item value="OptionsViewModel" priority="0" />
+      <Item value="Options" priority="1" />
+      <Item value="null" priority="5" />
+      <Item value="CannotUnloadAppDomainException`0" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="System" priority="1" />
+      <Item value="ComponentModel" priority="0" />
+      <Item value="Design" priority="0" />
+      <Item value="MainViewModel" priority="1" />
+      <Item value="_editingUserName" priority="0" />
+      <Item value="_userName" priority="4" />
+      <Item value="if" priority="20" />
+      <Item value="_levels" priority="7" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="4" />
+      <Item value="_typeTests" priority="3" />
+      <Item value="ObservableCollection&lt;TypeTest&gt;" priority="1" />
+      <Item value="Console`0" priority="0" />
+      <Item value="d" priority="3" />
+      <Item value="lock" priority="2" />
+      <Item value="Dictionary&lt;Type,object&gt;" priority="0" />
+      <Item value="services" priority="4" />
+      <Item value="serviceType" priority="1" />
+      <Item value="GetService`0" priority="0" />
+      <Item value="typeof" priority="7" />
+      <Item value="void" priority="8" />
+      <Item value="T`0" priority="4" />
+      <Item value="service" priority="2" />
+      <Item value="true" priority="4" />
+      <Item value="else" priority="3" />
+      <Item value="overwriteExisting" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="RegisterService`1" priority="0" />
+      <Item value="ServiceLocator" priority="0" />
+      <Item value="ServiceLocator`0" priority="0" />
+      <Item value="serviceLocator" priority="0" />
+      <Item value="Tester`0" priority="0" />
+      <Item value="_serviceLocator" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="var" priority="16" />
+      <Item value="optionsVm" priority="3" />
+      <Item value="DesignTimeOptionsViewModel`0" priority="0" />
+      <Item value="levels" priority="0" />
+      <Item value="ObservableCollection" priority="0" />
+      <Item value="typeTests" priority="1" />
+      <Item value="TypeTest" priority="0" />
+      <Item value="DesignTimeOptionsDataSource`0" priority="1" />
+      <Item value="IOptionsDataSource`0" priority="1" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="List&lt;TypeTest&gt;" priority="0" />
+      <Item value="Levels" priority="0" />
+      <Item value="GetService`1" priority="1" />
+      <Item value="dataSource" priority="2" />
+      <Item value="Linq" priority="0" />
+      <Item value="ValueToReturn`0" priority="0" />
+      <Item value="IVisitor" priority="0" />
+      <Item value="ItemToVisit`0" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="readonly" priority="0" />
+      <Item value="DependencyProperty`0" priority="1" />
+      <Item value="AdemolaTyper" priority="0" />
+      <Item value="ViewModelLoader`0" priority="0" />
+      <Item value="Type`0" priority="1" />
+      <Item value="Nullable`0" priority="0" />
+      <Item value="PropertyChangedCallback" priority="0" />
+      <Item value="FrameworkElement`0" priority="1" />
+      <Item value="IFactory`0" priority="1" />
+      <Item value="Activator`0" priority="0" />
+      <Item value="as" priority="5" />
+      <Item value="dependencyObject" priority="1" />
+      <Item value="FactoryTypeProperty" priority="1" />
+      <Item value="factory" priority="1" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="element" priority="1" />
+      <Item value="LoadData`0" priority="4" />
+      <Item value="xx" priority="0" />
+      <Item value="abstract" priority="2" />
+      <Item value="WorkspaceViewModel`0" priority="2" />
+      <Item value="protected" priority="1" />
+      <Item value="Sut" priority="8" />
+      <Item value="SetupContext`0" priority="0" />
+      <Item value="Because`0" priority="0" />
+      <Item value="TestInitialize" priority="0" />
+      <Item value="HomeViewModelTests`0" priority="0" />
+      <Item value="expected" priority="2" />
+      <Item value="HomeWindowViewModel" priority="2" />
+      <Item value="TestClass" priority="2" />
+      <Item value="HomeWindowViewModel`0" priority="13" />
+      <Item value="homeWindowVm" priority="2" />
+      <Item value="OptionsDataSource" priority="0" />
+      <Item value="_workspaces" priority="1" />
+      <Item value="_options" priority="3" />
+      <Item value="Workspaces" priority="0" />
+      <Item value="Workspace" priority="4" />
+      <Item value="HomeWindow`0" priority="2" />
+      <Item value="homeWindow" priority="0" />
+      <Item value="ICommand`0" priority="2" />
+      <Item value="_playGameOneCommand" priority="1" />
+      <Item value="RelayCommand`0" priority="2" />
+      <Item value="PlayGameOneCommand" priority="0" />
+      <Item value="CloseDialog`0" priority="0" />
+      <Item value="WhenMenuViewModelIsAskedToPlayGameOne`0" priority="0" />
+      <Item value="WhenMenuViewModelIsAskedToPlayGameOne" priority="0" />
+      <Item value="MenuViewModel" priority="0" />
+      <Item value="TestMethod" priority="0" />
+      <Item value="TestMethodAttribute`0" priority="0" />
+      <Item value="tm" priority="4" />
+      <Item value="TypedReference`0" priority="0" />
+      <Item value="methodFired" priority="0" />
+      <Item value="closeRequestFired" priority="2" />
+      <Item value="class" priority="0" />
+      <Item value="ContextSpec" priority="0" />
+      <Item value="_loadGameOneCommand" priority="1" />
+      <Item value="LoadGameOneCommand" priority="2" />
+      <Item value="GameOneViewModel`0" priority="14" />
+      <Item value="_menuViewModel" priority="0" />
+      <Item value="is" priority="1" />
+      <Item value="gameOneViewModel" priority="7" />
+      <Item value="_gameOneViewModel" priority="1" />
+      <Item value="GameOneViewModel" priority="1" />
+      <Item value="datacontexxt" priority="1" />
+      <Item value="DesignData" priority="0" />
+      <Item value="_words" priority="4" />
+      <Item value="gameData" priority="1" />
+      <Item value="gameDataSource" priority="0" />
+      <Item value="WordViewModel" priority="0" />
+      <Item value="WordViewModel`0" priority="1" />
+      <Item value="DesignTimeData`0" priority="1" />
+      <Item value="ObservableCollection&lt;WordViewModel&gt;" priority="0" />
+      <Item value="_currentWordIsProcessed" priority="2" />
+      <Item value="_processStartTime" priority="1" />
+      <Item value="_processStartCommand" priority="1" />
+      <Item value="viewModel" priority="5" />
+      <Item value="sender" priority="0" />
+      <Item value="GameOneView`0" priority="1" />
+      <Item value="gameOneView" priority="1" />
+      <Item value="e" priority="0" />
+      <Item value="WhenProcessingGameOneViewModel`0" priority="0" />
+      <Item value="IGameViewModel`0" priority="3" />
+      <Item value="GameOneDesignTimeDataSource`0" priority="0" />
+      <Item value="_wordsPerMinute" priority="0" />
+      <Item value="instanceWord" priority="0" />
+      <Item value="gameViewModel" priority="4" />
+      <Item value="GetGameData`0" priority="0" />
+      <Item value="randomWord" priority="1" />
+      <Item value="spaceletterWord" priority="1" />
+      <Item value="LoaderOptimization`0" priority="0" />
+      <Item value="CreateViewModel`0" priority="0" />
+      <Item value="GameOneViewModelTestFactory`0" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="InvokeWordProcessed`0" priority="0" />
+      <Item value="EventArgs" priority="0" />
+      <Item value="CurrentWord" priority="1" />
+      <Item value="CurrentWord_WordProcessed`0" priority="0" />
+      <Item value="_currentWord" priority="3" />
+      <Item value="wordViewModel" priority="0" />
+      <Item value="MemberAccessException`0" priority="0" />
+      <Item value="mainwindowViewModel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.EventArgs">
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.MainViewModel">
+      <Item value="Options" priority="3" />
+      <Item value="Options_RequestClose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.OptionsViewModel">
+      <Item value="RequestClose" priority="5" />
+      <Item value="InvokeRequestClose`0" priority="1" />
+      <Item value="ServiceLocator" priority="2" />
+      <Item value="UserName" priority="0" />
+      <Item value="InvokeRequestStartGameOne`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventHandler">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="6" />
+      <Item value="Count" priority="1" />
+      <Item value="Last`1" priority="0" />
+      <Item value="Sum`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyObject">
+      <Item value="ToString`0" priority="1" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="SetValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="1" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.Common.ServiceLocator">
+      <Item value="GetService`0" priority="0" />
+      <Item value="RegisterService`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AdemolaTyper.Helpers.Designer">
+      <Item value="IsDesignMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.DataSources.IOptionsDataSource">
+      <Item value="GetCurrentUser`0" priority="0" />
+      <Item value="GetLevels`0" priority="0" />
+      <Item value="GetTypeTests`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Indexer" priority="0" />
+      <Item value="each`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="RegisterAttached`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.FrameworkElement">
+      <Item value="DataContext" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.MVVMHelpers.IFactory">
+      <Item value="CreateViewModel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsInstanceOfType`0" priority="1" />
+      <Item value="IsNotInstanceOfType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.HomeWindowViewModel">
+      <Item value="Workspace" priority="3" />
+      <Item value="ServiceLocator" priority="2" />
+      <Item value="GetService`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.WorkspaceViewModel">
+      <Item value="ShouldBeOfType`0" priority="1" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MVVMLib.Helpers.Designer">
+      <Item value="IsDesignMode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MVVMLib.Common.ServiceLocator">
+      <Item value="RegisterService`1" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.HomeWindow">
+      <Item value="Show`0" priority="0" />
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.MenuViewModel">
+      <Item value="CloseCommand" priority="0" />
+      <Item value="PlayGameOneCommand" priority="0" />
+      <Item value="RequestStartGameOne" priority="1" />
+      <Item value="InvokeRequestClose`0" priority="0" />
+      <Item value="RequestClose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.ICommand">
+      <Item value="Execute`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ShouldBeTrue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.GameOneViewModel">
+      <Item value="ServiceLocator" priority="2" />
+      <Item value="KeyPressReceivedCommand" priority="0" />
+      <Item value="CurrentWord" priority="0" />
+      <Item value="Words" priority="3" />
+      <Item value="SetFirstWord`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.Views.GameOneView">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.TextCompositionEventArgs">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.WordViewModel">
+      <Item value="Letters" priority="2" />
+      <Item value="GameViewModel" priority="2" />
+      <Item value="WordProcessed" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.TypeFaceViewModel">
+      <Item value="Letter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ShouldBe`0" priority="0" />
+      <Item value="ShouldEqual`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.Factories.GameOneViewModelFactory">
+      <Item value="CreateViewModel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.DesignData.GameOneDesignTimeDataSource">
+      <Item value="GetGameData`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="87" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WhenMenuViewModelIsAskedToPlayGameOne.cs" caret="0" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WhenHomeViewModelIsInstantiated.cs" caret="375" fromTop="10" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:BDD/f:ContextSpec.cs" caret="427" fromTop="17" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="232" fromTop="7" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Common/f:ServiceLocator.cs" caret="327" fromTop="11" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="791" fromTop="25" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="519" fromTop="16" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:IFactory.cs" caret="159" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IGameOneDataSource.cs" caret="154" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="1404" fromTop="36" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:GameOneViewModelTestFactory.cs" caret="581" fromTop="18" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="394" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WorkspaceViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:IGameViewModel.cs" caret="130" fromTop="5" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="1976" fromTop="25" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="1081" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml" caret="5351" fromTop="18" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:WordView.xaml.cs" caret="326" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml.cs" caret="382" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="4337" fromTop="22" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="901" fromTop="7" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml" caret="1747" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml.cs" caret="246" fromTop="10" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MenuViewModel.cs" caret="3121" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="3736" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:HomeWindowViewModel.cs" caret="2830" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:HomeWindowViewModelFactory.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="737" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="8052" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="8052" fromTop="16" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="8052" fromTop="9" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="528" fromTop="12" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="8052" fromTop="30" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="1975" fromTop="34" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="1405" fromTop="25" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="2433" fromTop="31" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="2253" fromTop="24" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="2059" fromTop="17" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="2102" fromTop="25" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="1405" fromTop="12" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="540" fromTop="11" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="8052" fromTop="254" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="123" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="869" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="1700" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="1386" fromTop="22" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="1392" fromTop="17" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="432" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="1152" fromTop="20" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="658" fromTop="4" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml.cs" caret="775" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml.cs" caret="775" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml" caret="4" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="4090" fromTop="11" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="4409" fromTop="36" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="901" fromTop="7" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml" caret="5205" fromTop="17" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="737" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
