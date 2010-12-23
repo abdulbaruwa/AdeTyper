@@ -155,3 +155,7 @@ D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\GenerateResource.rea
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper.exe
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper.pdb
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\AdemolaTyper.exe.manifest
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\AdemolaTyper.application
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper.exe.manifest
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper.application

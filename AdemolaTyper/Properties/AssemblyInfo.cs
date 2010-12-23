@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("AdemolaTyper")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("BintaWorks")]
 [assembly: AssemblyProduct("AdemolaTyper")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2010")]
+[assembly: AssemblyCopyright("Copyright © BintaWorks 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
