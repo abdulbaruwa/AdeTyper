@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Timers;
 using AdemolaTyper.ViewModels.GameOne;
@@ -25,6 +26,13 @@ namespace AdemolaTyper.ViewModels
         private ObservableCollection<WordViewModel> _words = new ObservableCollection<WordViewModel>();
         private int _wordsPerMinute;
         private GameOneOverViewModel _gameOneOverViewModel;
+        private IList<WordViewModel> _gameData;
+
+        public IList<WordViewModel> GameData
+        {
+            get { return _gameData; }
+            set { _gameData = value; }
+        }
 
         public GameOneViewModel(HomeWindowViewModel homeWindowViewModel)
         {
@@ -38,14 +46,42 @@ namespace AdemolaTyper.ViewModels
         {
             ProcessCompleted = false;
             _gameOneOverViewModel.ProcessCompleted = false;
-            Words.Clear();
+            RefreshGameData();
             LoadData();
+        }
+
+        public void RefreshGameData()
+        {
+            var gameDataSource = GetService<IGameOneDataSource>();
+            _gameData = gameDataSource.GetGameData(this);
+        }
+
+        public void LoadData()
+        {
+            Words.Clear();
+            _gameData.each(x => Words.Add(x));
+            CurrentWordIndex = 0;
+            SetFirstWord(Words.First());
+            StartGame();
         }
 
         private void GameOneOverViewModel_RePlayCurrentGame(object sender, EventArgs e)
         {
             ProcessCompleted = false;
             _gameOneOverViewModel.ProcessCompleted = false;
+            LoadData();
+            ResetOldGameDataForReUse();
+        }
+
+        private void ResetOldGameDataForReUse()
+        {
+            Words.each(x =>
+                           {
+                               x.Letters.each(y => y.IsTypedRight = System.Windows.Media.Brushes.Black);
+                               x.IsComplete = false;
+                           }
+                
+                );
         }
 
         public DateTime? ProcessStartTime
@@ -67,7 +103,6 @@ namespace AdemolaTyper.ViewModels
         {
             get
             {
-                if (_words == null) LoadData();
                 return _words;
             }
             set
@@ -160,16 +195,7 @@ namespace AdemolaTyper.ViewModels
             }
         }
 
-        public void LoadData()
-        {
-            var gameDataSource = GetService<IGameOneDataSource>();
-            gameDataSource.GetGameData(this).each(x => Words.Add(x));
-            //CurrentWord = Words.First();
-            //WordsPerMinute = 0;
-            CurrentWordIndex = 0;
-            SetFirstWord(Words.First());
-            StartGame();
-        }
+        
 
         private void keyPressed(Object key)
         {

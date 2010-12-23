@@ -117,7 +117,8 @@ namespace AdemolaTyper.ViewModels
             _gameOneViewModel = new GameOneViewModel(this);
             _gameOneViewModel.ServiceLocator.RegisterService(GetService<IGameOneDataSource>());
 
-            GetService<IGameOneDataSource>().GetGameData().each(x => _gameOneViewModel.AddWord(x));
+            _gameOneViewModel.GameData = GetService<IGameOneDataSource>().GetGameData();
+            _gameOneViewModel.GameData.each(x => _gameOneViewModel.AddWord(x));
             _gameOneViewModel.SetFirstWord(_gameOneViewModel.Words.First());
             _gameOneViewModel.ProcessStart.Execute(null);
             Workspace = _gameOneViewModel;
