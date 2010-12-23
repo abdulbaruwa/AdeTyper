@@ -8,27 +8,27 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="private" priority="9" />
+      <Item value="private" priority="11" />
       <Item value="OnPropertyChanged`0" priority="5" />
       <Item value="ViewModelBase`0" priority="3" />
-      <Item value="public" priority="8" />
+      <Item value="public" priority="21" />
       <Item value="bool" priority="3" />
-      <Item value="string" priority="4" />
+      <Item value="string" priority="6" />
       <Item value="TypeTests`0" priority="0" />
       <Item value="int" priority="0" />
-      <Item value="OptionsViewModel`0" priority="1" />
-      <Item value="return" priority="14" />
+      <Item value="OptionsViewModel`0" priority="3" />
+      <Item value="return" priority="35" />
       <Item value="value" priority="0" />
       <Item value="EventArgs`0" priority="0" />
       <Item value="MainViewModel`0" priority="0" />
       <Item value="mainViewModel" priority="1" />
       <Item value="throw" priority="1" />
       <Item value="ArgumentException`0" priority="0" />
-      <Item value="this" priority="3" />
-      <Item value="new" priority="19" />
+      <Item value="this" priority="7" />
+      <Item value="new" priority="54" />
       <Item value="OptionsViewModel" priority="0" />
       <Item value="Options" priority="1" />
-      <Item value="null" priority="2" />
+      <Item value="null" priority="5" />
       <Item value="CannotUnloadAppDomainException`0" priority="0" />
       <Item value="using" priority="1" />
       <Item value="System" priority="1" />
@@ -37,9 +37,9 @@
       <Item value="MainViewModel" priority="1" />
       <Item value="_editingUserName" priority="0" />
       <Item value="_userName" priority="4" />
-      <Item value="if" priority="10" />
-      <Item value="_levels" priority="6" />
-      <Item value="ObservableCollection&lt;string&gt;" priority="2" />
+      <Item value="if" priority="18" />
+      <Item value="_levels" priority="7" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="4" />
       <Item value="_typeTests" priority="3" />
       <Item value="ObservableCollection&lt;TypeTest&gt;" priority="1" />
       <Item value="Console`0" priority="0" />
@@ -49,12 +49,12 @@
       <Item value="services" priority="4" />
       <Item value="serviceType" priority="1" />
       <Item value="GetService`0" priority="0" />
-      <Item value="typeof" priority="5" />
-      <Item value="void" priority="2" />
-      <Item value="T`0" priority="3" />
+      <Item value="typeof" priority="7" />
+      <Item value="void" priority="8" />
+      <Item value="T`0" priority="4" />
       <Item value="service" priority="2" />
-      <Item value="true" priority="1" />
-      <Item value="else" priority="1" />
+      <Item value="true" priority="4" />
+      <Item value="else" priority="3" />
       <Item value="overwriteExisting" priority="0" />
       <Item value="false" priority="0" />
       <Item value="RegisterService`1" priority="0" />
@@ -63,20 +63,20 @@
       <Item value="serviceLocator" priority="0" />
       <Item value="Tester`0" priority="0" />
       <Item value="_serviceLocator" priority="0" />
-      <Item value="object" priority="0" />
-      <Item value="var" priority="3" />
-      <Item value="optionsVm" priority="2" />
+      <Item value="object" priority="1" />
+      <Item value="var" priority="16" />
+      <Item value="optionsVm" priority="3" />
       <Item value="DesignTimeOptionsViewModel`0" priority="0" />
       <Item value="levels" priority="0" />
       <Item value="ObservableCollection" priority="0" />
       <Item value="typeTests" priority="1" />
       <Item value="TypeTest" priority="0" />
-      <Item value="DesignTimeOptionsDataSource`0" priority="0" />
-      <Item value="IOptionsDataSource`0" priority="0" />
+      <Item value="DesignTimeOptionsDataSource`0" priority="1" />
+      <Item value="IOptionsDataSource`0" priority="1" />
       <Item value="List&lt;string&gt;" priority="0" />
       <Item value="List&lt;TypeTest&gt;" priority="0" />
       <Item value="Levels" priority="0" />
-      <Item value="GetService`1" priority="0" />
+      <Item value="GetService`1" priority="2" />
       <Item value="dataSource" priority="2" />
       <Item value="Linq" priority="0" />
       <Item value="ValueToReturn`0" priority="0" />
@@ -93,14 +93,91 @@
       <Item value="FrameworkElement`0" priority="1" />
       <Item value="IFactory`0" priority="1" />
       <Item value="Activator`0" priority="0" />
-      <Item value="as" priority="0" />
+      <Item value="as" priority="6" />
       <Item value="dependencyObject" priority="1" />
       <Item value="FactoryTypeProperty" priority="1" />
       <Item value="factory" priority="1" />
       <Item value="InvalidOperationException" priority="0" />
       <Item value="element" priority="1" />
-      <Item value="LoadData`0" priority="2" />
+      <Item value="LoadData`0" priority="4" />
       <Item value="xx" priority="0" />
+      <Item value="abstract" priority="2" />
+      <Item value="WorkspaceViewModel`0" priority="2" />
+      <Item value="protected" priority="1" />
+      <Item value="Sut" priority="8" />
+      <Item value="SetupContext`0" priority="0" />
+      <Item value="Because`0" priority="0" />
+      <Item value="TestInitialize" priority="0" />
+      <Item value="HomeViewModelTests`0" priority="0" />
+      <Item value="expected" priority="2" />
+      <Item value="HomeWindowViewModel" priority="3" />
+      <Item value="TestClass" priority="2" />
+      <Item value="HomeWindowViewModel`0" priority="11" />
+      <Item value="homeWindowVm" priority="3" />
+      <Item value="OptionsDataSource" priority="0" />
+      <Item value="_workspaces" priority="1" />
+      <Item value="_options" priority="3" />
+      <Item value="Workspaces" priority="0" />
+      <Item value="Workspace" priority="4" />
+      <Item value="HomeWindow`0" priority="1" />
+      <Item value="homeWindow" priority="0" />
+      <Item value="ICommand`0" priority="2" />
+      <Item value="_playGameOneCommand" priority="1" />
+      <Item value="RelayCommand`0" priority="2" />
+      <Item value="PlayGameOneCommand" priority="0" />
+      <Item value="CloseDialog`0" priority="0" />
+      <Item value="WhenMenuViewModelIsAskedToPlayGameOne`0" priority="0" />
+      <Item value="WhenMenuViewModelIsAskedToPlayGameOne" priority="0" />
+      <Item value="MenuViewModel" priority="0" />
+      <Item value="TestMethod" priority="0" />
+      <Item value="TestMethodAttribute`0" priority="0" />
+      <Item value="tm" priority="4" />
+      <Item value="TypedReference`0" priority="0" />
+      <Item value="methodFired" priority="0" />
+      <Item value="closeRequestFired" priority="2" />
+      <Item value="class" priority="0" />
+      <Item value="ContextSpec" priority="0" />
+      <Item value="_loadGameOneCommand" priority="1" />
+      <Item value="LoadGameOneCommand" priority="2" />
+      <Item value="GameOneViewModel`0" priority="15" />
+      <Item value="_menuViewModel" priority="0" />
+      <Item value="is" priority="1" />
+      <Item value="gameOneViewModel" priority="10" />
+      <Item value="_gameOneViewModel" priority="4" />
+      <Item value="GameOneViewModel" priority="2" />
+      <Item value="datacontexxt" priority="1" />
+      <Item value="DesignData" priority="1" />
+      <Item value="_words" priority="4" />
+      <Item value="gameData" priority="1" />
+      <Item value="gameDataSource" priority="4" />
+      <Item value="WordViewModel" priority="0" />
+      <Item value="WordViewModel`0" priority="1" />
+      <Item value="DesignTimeData`0" priority="1" />
+      <Item value="ObservableCollection&lt;WordViewModel&gt;" priority="1" />
+      <Item value="_currentWordIsProcessed" priority="2" />
+      <Item value="_processStartTime" priority="1" />
+      <Item value="_processStartCommand" priority="1" />
+      <Item value="viewModel" priority="6" />
+      <Item value="sender" priority="0" />
+      <Item value="GameOneView`0" priority="1" />
+      <Item value="gameOneView" priority="1" />
+      <Item value="e" priority="0" />
+      <Item value="WhenProcessingGameOneViewModel`0" priority="0" />
+      <Item value="IGameViewModel`0" priority="3" />
+      <Item value="GameOneDesignTimeDataSource`0" priority="1" />
+      <Item value="_wordsPerMinute" priority="0" />
+      <Item value="instanceWord" priority="0" />
+      <Item value="gameViewModel" priority="5" />
+      <Item value="GetGameData`0" priority="0" />
+      <Item value="randomWord" priority="1" />
+      <Item value="spaceletterWord" priority="1" />
+      <Item value="LoaderOptimization`0" priority="0" />
+      <Item value="CreateViewModel`0" priority="0" />
+      <Item value="GameOneViewModelTestFactory`0" priority="1" />
+      <Item value="IGameOneDataSource`0" priority="2" />
+      <Item value="Ignore" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="Thread`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.EventArgs">
       <Item value="Empty" priority="0" />
@@ -110,16 +187,19 @@
       <Item value="Options_RequestClose`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.OptionsViewModel">
-      <Item value="RequestClose" priority="3" />
+      <Item value="RequestClose" priority="5" />
       <Item value="InvokeRequestClose`0" priority="1" />
-      <Item value="ServiceLocator" priority="1" />
+      <Item value="ServiceLocator" priority="2" />
       <Item value="UserName" priority="0" />
+      <Item value="InvokeRequestStartGameOne`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.EventHandler">
       <Item value="Invoke`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
-      <Item value="Add`0" priority="3" />
+      <Item value="Add`0" priority="7" />
+      <Item value="Count" priority="0" />
+      <Item value="First`1" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Console">
       <Item value="WriteLine`0" priority="0" />
@@ -171,70 +251,153 @@
     <ItemStatistics item="Qualified:System.Object">
       <Item value="ToString`0" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsInstanceOfType`0" priority="1" />
+      <Item value="IsNotInstanceOfType`0" priority="0" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.HomeWindowViewModel">
+      <Item value="Workspace" priority="2" />
+      <Item value="ServiceLocator" priority="2" />
+      <Item value="GetService`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.WorkspaceViewModel">
+      <Item value="ShouldBeOfType`0" priority="1" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MVVMLib.Helpers.Designer">
+      <Item value="IsDesignMode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MVVMLib.Common.ServiceLocator">
+      <Item value="RegisterService`1" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.HomeWindow">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.MenuViewModel">
+      <Item value="CloseCommand" priority="0" />
+      <Item value="PlayGameOneCommand" priority="0" />
+      <Item value="RequestStartGameOne" priority="1" />
+      <Item value="InvokeRequestClose`0" priority="0" />
+      <Item value="RequestClose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.ICommand">
+      <Item value="Execute`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ShouldBeTrue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.GameOneViewModel">
+      <Item value="ServiceLocator" priority="2" />
+      <Item value="KeyPressReceivedCommand" priority="1" />
+      <Item value="CurrentWord" priority="1" />
+      <Item value="Words" priority="5" />
+      <Item value="AddWord`0" priority="1" />
+      <Item value="SetFirstWord`0" priority="1" />
+      <Item value="GetService`1" priority="0" />
+      <Item value="LoadData`0" priority="1" />
+      <Item value="WordsPerMinute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.Views.GameOneView">
+      <Item value="DataContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.TextCompositionEventArgs">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.WordViewModel">
+      <Item value="Letters" priority="3" />
+      <Item value="GameViewModel" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.TypeFaceViewModel">
+      <Item value="Letter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ShouldBe`0" priority="0" />
+      <Item value="ShouldEqual`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.Factories.GameOneViewModelFactory">
+      <Item value="CreateViewModel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.DataSources.IGameOneDataSource">
+      <Item value="GetGameData`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyper.ViewModels.Factories.HomeWindowViewModelFactory">
+      <Item value="CreateViewModel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AdemolaTyperTest.ViewModels.GameOne.GameOneViewModelTestFactory">
+      <Item value="CreateViewModel`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="SpinWait`0" priority="0" />
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeTest.cs" caret="55" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeData.cs" caret="1239" fromTop="32" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IValueReturningVisitor.cs" caret="189" fromTop="5" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IVisitor.cs" caret="59" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:IMapper.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="1146" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Common/f:ServiceLocator.cs" caret="153" fromTop="6" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IOptionsDataSource.cs" caret="224" fromTop="7" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeFaceViewModel.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="209" fromTop="7" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsDataSource.cs" caret="174" fromTop="4" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml" caret="1" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml.cs" caret="213" fromTop="8" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="914" fromTop="13" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1639" fromTop="35" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:IFactory.cs" caret="52" fromTop="1" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Helpers/f:Designer.cs" caret="1052" fromTop="39" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Common/f:ServiceLocator.cs" caret="1271" fromTop="48" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="105" fromTop="3" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:Tester.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="71" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="2817" fromTop="32" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="668" fromTop="26" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="97" fromTop="4" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="957" fromTop="28" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="293" fromTop="10" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="736" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="668" fromTop="6" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:BDD/f:ContextSpec.cs" caret="427" fromTop="17" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:IGameViewModel.cs" caret="130" fromTop="5" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="232" fromTop="7" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Common/f:ServiceLocator.cs" caret="327" fromTop="11" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="791" fromTop="25" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:IFactory.cs" caret="159" fromTop="6" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml.cs" caret="551" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:WordView.xaml.cs" caret="381" fromTop="18" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MenuViewModel.cs" caret="3436" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml.cs" caret="0" fromTop="0" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="394" fromTop="14" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="238" fromTop="7" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IOptionsDataSource.cs" caret="230" fromTop="8" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IGameOneDataSource.cs" caret="185" fromTop="6" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1253" fromTop="22" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="810" fromTop="20" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="4421" fromTop="24" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:HomeWindowViewModel.cs" caret="3293" fromTop="92" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:HomeWindowViewModelFactory.cs" caret="713" fromTop="19" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:HomeWindow/f:HomeWindowViewModelTestFactory.cs" caret="0" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WhenHomeViewModelIsInstantiated.cs" caret="383" fromTop="11" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:GameOneViewModelTestFactory.cs" caret="832" fromTop="22" />
+      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="1923" fromTop="36" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="2786" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="3024" fromTop="40" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="3399" fromTop="13" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="952" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="616" fromTop="9" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml.cs" caret="777" fromTop="8" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="822" fromTop="10" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="2927" fromTop="24" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="1450" fromTop="1" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="1910" fromTop="68" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="71" fromTop="1" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Commands/f:RelayCommand.cs" caret="534" fromTop="21" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Common/f:ServiceLocator.cs" caret="1271" fromTop="48" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:Helpers/f:Designer.cs" caret="1052" fromTop="39" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:IFactory.cs" caret="52" fromTop="1" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1639" fromTop="35" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1238" fromTop="22" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="832" fromTop="22" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:MainViewModel.cs" caret="105" fromTop="3" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="315" fromTop="13" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="13" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="276" fromTop="10" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:DesignTimeOptionsViewModel.cs" caret="44" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="741" fromTop="24" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:OptionsViewModelFactory.cs" caret="54" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="118" fromTop="2" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="63" fromTop="1" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="364" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:OptionsView.xaml" caret="3250" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:ViewModelProps.cs" caret="2817" fromTop="32" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="4590" fromTop="145" />
-      <File id="05EC598E-44D2-4784-85A2-8D78D442E910/f:ViewModelBase.cs" caret="97" fromTop="4" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:OptionsViewModel.cs" caret="864" fromTop="24" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="2634" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="810" fromTop="25" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="810" fromTop="24" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="802" fromTop="24" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="4925" fromTop="33" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="828" fromTop="21" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:HomeWindowViewModel.cs" caret="1088" fromTop="13" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:HomeWindowViewModelFactory.cs" caret="934" fromTop="20" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:HomeWindowViewModelFactory.cs" caret="517" fromTop="15" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="835" fromTop="21" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="4473" fromTop="52" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:HomeWindowViewModel.cs" caret="3249" fromTop="52" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:HomeWindowViewModelFactory.cs" caret="0" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:HomeWindow/f:HomeWindowViewModelTestFactory.cs" caret="871" fromTop="9" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:HomeWindow/f:HomeWindowViewModelTestFactory.cs" caret="871" fromTop="14" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:HomeWindow/f:HomeWindowViewModelTestFactory.cs" caret="871" fromTop="5" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:HomeWindow/f:HomeWindowViewModelTestFactory.cs" caret="871" fromTop="27" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WhenHomeViewModelIsInstantiated.cs" caret="1035" fromTop="21" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WhenHomeViewModelIsInstantiated.cs" caret="427" fromTop="1" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="3774" fromTop="30" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:GameOneViewModelTestFactory.cs" caret="832" fromTop="22" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="2684" fromTop="32" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="3024" fromTop="40" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="1156" fromTop="17" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="488" fromTop="6" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="18" fromTop="0" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="1607" fromTop="33" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="1911" fromTop="31" />
+      <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="2162" fromTop="37" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

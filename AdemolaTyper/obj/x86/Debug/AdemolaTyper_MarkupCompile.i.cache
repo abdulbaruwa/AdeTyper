@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\App.xaml
-81151961479
+91512175672
 
-35-834394691
+391619195587
 16-1255340979
-MainResourceDictionary1.xaml;MainWindow.xaml;Views\OptionsView.xaml;Views\MainResourceDictionary.xaml;Views\MenuView.xaml;Views\TypeFaceView.xaml;Views\TypingCompleteView.xaml;Views\WordView.xaml;
+HomeWindow.xaml;MainResourceDictionary1.xaml;Views\GameOneView.xaml;Views\OptionsView.xaml;Views\MainResourceDictionary.xaml;Views\MenuView.xaml;Views\TypeFaceView.xaml;Views\TypingCompleteView.xaml;Views\WordView.xaml;
 
 True
 

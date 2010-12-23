@@ -1,5 +1,5 @@
-<AdemolaTyper_ViewModels:OptionsViewModel xmlns:AdemolaTyper_ViewModels="clr-namespace:AdemolaTyper.ViewModels" xmlns:System="clr-namespace:System;assembly=mscorlib" DisplayName="Vestibulum magnis gravida" EditingUserName="True" UserName="Luctus nisl">
-	<AdemolaTyper_ViewModels:OptionsViewModel.Levels>
+<AdemolaTyper_ViewModels:MenuViewModel xmlns:AdemolaTyper_ViewModels="clr-namespace:AdemolaTyper.ViewModels" xmlns:System="clr-namespace:System;assembly=mscorlib" DisplayName="Vestibulum magnis gravida" EditingUserName="True" UserName="Luctus nisl">
+	<AdemolaTyper_ViewModels:MenuViewModel.Levels>
 		<System:String>Vestibulum curabitur aenean nam sed</System:String>
 		<System:String>Phasellus consequat adipiscing class dis</System:String>
 		<System:String>Mauris maecenas convallis</System:String>
@@ -10,8 +10,8 @@
 		<System:String>Nunc accumsan donec amet etiam</System:String>
 		<System:String>Leo fusce lorem</System:String>
 		<System:String>Lectus morbi</System:String>
-	</AdemolaTyper_ViewModels:OptionsViewModel.Levels>
-	<AdemolaTyper_ViewModels:OptionsViewModel.TypeTests>
+	</AdemolaTyper_ViewModels:MenuViewModel.Levels>
+	<AdemolaTyper_ViewModels:MenuViewModel.TypeTests>
 		<AdemolaTyper_ViewModels:TypeTest TypeTestLevel="LevelOne" TypeTest1="Nulla fermentum bibendum dictumst" TargetWordsPerMinute="39" TestName="Ante facilisis mus"/>
 		<AdemolaTyper_ViewModels:TypeTest TypeTestLevel="LevelTwo" TypeTest1="Libero aliquam arcu" TargetWordsPerMinute="74" TestName="Parturient vestibulum vestibulum proin eleifend"/>
 		<AdemolaTyper_ViewModels:TypeTest TypeTestLevel="LevelThree" TypeTest1="Integer quisque facilisi" TargetWordsPerMinute="63" TestName="Diam ligula eget"/>
@@ -22,5 +22,5 @@
 		<AdemolaTyper_ViewModels:TypeTest TypeTestLevel="LevelTwo" TypeTest1="Habitant nibh malesuada" TargetWordsPerMinute="44" TestName="Imperdiet sed eros"/>
 		<AdemolaTyper_ViewModels:TypeTest TypeTestLevel="LevelThree" TypeTest1="Euismod nisi" TargetWordsPerMinute="55" TestName="Penatibus inceptos"/>
 		<AdemolaTyper_ViewModels:TypeTest TypeTestLevel="LevelOne" TypeTest1="Porttitor nascetur felis" TargetWordsPerMinute="56" TestName="Fames interdum feugiat lobortis"/>
-	</AdemolaTyper_ViewModels:OptionsViewModel.TypeTests>
-</AdemolaTyper_ViewModels:OptionsViewModel>
+	</AdemolaTyper_ViewModels:MenuViewModel.TypeTests>
+</AdemolaTyper_ViewModels:MenuViewModel>

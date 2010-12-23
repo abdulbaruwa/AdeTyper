@@ -7,9 +7,13 @@
         <Views:WordView/>
     </DataTemplate>
 
-    <!--<DataTemplate DataType="{x:Type ViewModels:OptionsViewModel}" x:Key="OptionsTemplate">
+    <DataTemplate DataType="{x:Type ViewModels:MenuViewModel}">
         <Views:MenuView/>
-    </DataTemplate>-->
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type ViewModels:GameOneViewModel}">
+        <Views:GameOneView/>
+    </DataTemplate>
     
     <Converters:BoolToVisibilityConverter x:Key="boolToVisibilityConverter" />    
 

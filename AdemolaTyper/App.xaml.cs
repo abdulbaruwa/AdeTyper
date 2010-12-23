@@ -1,8 +1,4 @@
-﻿using System;
-using System.Windows;
-using AdemolaTyper.DesignData;
-using AdemolaTyper.ViewModels;
-using System.Collections.ObjectModel;
+﻿using System.Windows;
 
 namespace AdemolaTyper
 {
@@ -20,11 +16,8 @@ namespace AdemolaTyper
 
         private void LoadModelView()
         {
-            var mainWindow = new MainWindow();
-            var viewModel = new MainViewModel();
-            viewModel.AddWords(DesignTimeData.InitializeDummyData());
-            mainWindow.DataContext = viewModel;
-            mainWindow.Show();
+            var homeWindow = new HomeWindow();
+            homeWindow.Show();
         }
     }
 }

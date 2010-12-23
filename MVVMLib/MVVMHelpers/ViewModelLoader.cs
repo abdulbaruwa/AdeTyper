@@ -19,10 +19,8 @@ namespace MVVMLib.MVVMHelpers
             IFactory factory = Activator.CreateInstance(GetFactoryType(d)) as IFactory;
             if (factory == null)
                 throw new InvalidOperationException("You have to specify a type that inherits from IFactory");
-            
-            element.DataContext = factory.CreateViewModel(d);
-            //var xx = () element.DataContext;
-            //throw new InvalidOperationException(d.ToString());
+            var datacontexxt = factory.CreateViewModel(d); 
+            if(datacontexxt != null) element.DataContext = datacontexxt;
         }
 
         private static Type GetFactoryType(DependencyObject dependencyObject)

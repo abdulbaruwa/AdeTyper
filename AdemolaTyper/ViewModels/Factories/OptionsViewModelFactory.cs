@@ -7,18 +7,21 @@ namespace AdemolaTyper.ViewModels.Factories
 {
     public class OptionsViewModelFactory : IFactory
     {
-        public object CreateViewModel(DependencyObject sender)
+        public object CreateViewModel()
         {
-            var optionsVm = new OptionsViewModel();
+            //I am only interested in a Design time implementation. 
+            var optionsVm = new MenuViewModel();
             if(Designer.IsDesignMode)
             {
                 optionsVm.ServiceLocator.RegisterService<IOptionsDataSource>(new DesignData.DesignTimeOptionsDataSource());
+                return optionsVm;
             }
-            else
-            {
-                optionsVm.ServiceLocator.RegisterService<IOptionsDataSource>(new OptionsDataSource());
-            }
-            return optionsVm;
+            return null;
+        }
+
+        public object CreateViewModel(DependencyObject sender)
+        {
+            return CreateViewModel();
         }
     }
 }

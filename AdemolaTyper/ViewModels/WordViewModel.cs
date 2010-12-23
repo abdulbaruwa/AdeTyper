@@ -14,7 +14,7 @@ namespace AdemolaTyper.ViewModels
         private RelayCommand _wordTyped;
         private int _currentLetterIndex;
         private bool _isComplete;
-        private MainViewModel _mainViewModel;
+        private GameOneViewModel _gameViewModel;
         private bool _isLastWord;
         private bool _startAnimation;
 
@@ -35,17 +35,18 @@ namespace AdemolaTyper.ViewModels
             OnPropertyChanged("IsLastWord");}
         }
 
-        
-        public WordViewModel(MainViewModel mainViewModel)
+
+         
+        public WordViewModel(GameOneViewModel gameViewModel)
         {
-            _mainViewModel = mainViewModel;
+            _gameViewModel = gameViewModel;
             _letters = new ObservableCollection<TypeFaceViewModel>();
         }
 
         public WordViewModel()
         {
             _letters = new ObservableCollection<TypeFaceViewModel>();
-            _mainViewModel = new MainViewModel();
+            _gameViewModel = new GameOneViewModel();
         }
 
         public ObservableCollection<TypeFaceViewModel> Letters
@@ -96,10 +97,10 @@ namespace AdemolaTyper.ViewModels
             set { _isComplete = value; }
         }
 
-        public MainViewModel MainViewModel
+        public GameOneViewModel GameViewModel
         {
-            get { return _mainViewModel; }
-            set { _mainViewModel = value; }
+            get { return _gameViewModel; }
+            set { _gameViewModel = value; }
         }
 
         private void WordTypeReceived(object letterTyped)
@@ -118,12 +119,20 @@ namespace AdemolaTyper.ViewModels
             IsComplete = (Letters.Count == _currentLetterIndex + 1);
             if(IsComplete)
             {
-                _mainViewModel.CurrentWordIsProcessed.Execute(null);
+                InvokeWordProcessed();
+                //_gameViewModel.CurrentWordIsProcessed.Execute(null);
             }
             else
             {
                 _currentLetterIndex++;
             }
+        }
+
+        public event EventHandler WordProcessed;
+        public void InvokeWordProcessed()
+        {
+            EventHandler handler = WordProcessed;
+            if (handler != null) handler(this, EventArgs.Empty);
         }
     }
 }

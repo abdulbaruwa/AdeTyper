@@ -65,24 +65,33 @@
     <Compile Include="Control\TyperPanel.cs" />
     <Compile Include="Converters\BoolToFontColourConverter.cs" />
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
-    <Compile Include="DesignData\DesignTimeData.cs" />
+    <Compile Include="HomeWindow.xaml.cs">
+      <DependentUpon>HomeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DesignData\GameOneDesignTimeDataSource.cs" />
     <Compile Include="DesignData\DesignTimeOptionsDataSource.cs" />
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="Extensions\IMapper.cs" />
     <Compile Include="Extensions\IValueReturningVisitor.cs" />
     <Compile Include="Extensions\IVisitor.cs" />
-    <Compile Include="DesignData\DesignTimeOptionsViewModel.cs" />
     <Compile Include="DataSources\IOptionsDataSource.cs" />
     <Compile Include="DataSources\OptionsDataSource.cs" />
+    <Compile Include="ViewModels\Factories\GameOneViewModelFactory.cs" />
+    <Compile Include="ViewModels\Factories\HomeWindowViewModelFactory.cs" />
+    <Compile Include="DataSources\IGameOneDataSource.cs" />
     <Compile Include="ViewModels\Factories\OptionsViewModelFactory.cs" />
-    <Compile Include="ViewModels\MainViewModel.cs" />
-    <Compile Include="ViewModels\OptionsViewModel.cs" />
+    <Compile Include="ViewModels\GameOneViewModel.cs" />
+    <Compile Include="ViewModels\HomeWindowViewModel.cs" />
+    <Compile Include="ViewModels\IGameViewModel.cs" />
+    <Compile Include="ViewModels\MenuViewModel.cs" />
     <Compile Include="ViewModels\Tester.cs" />
     <Compile Include="ViewModels\TypeFaceViewModel.cs" />
     <Compile Include="ViewModels\TypeTestLevel.cs" />
     <Compile Include="ViewModels\TypeTest.cs" />
-    <Compile Include="ViewModels\TypingCompleteViewModel.cs" />
-    <Compile Include="ViewModels\ViewModelProps.cs" />
+    <Compile Include="ViewModels\WorkspaceViewModel.cs" />
+    <Compile Include="Views\GameOneView.xaml.cs">
+      <DependentUpon>GameOneView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\OptionsView.xaml.cs">
       <DependentUpon>OptionsView.xaml</DependentUpon>
     </Compile>
@@ -102,22 +111,22 @@
     <Compile Include="Views\WordView.xaml.cs">
       <DependentUpon>WordView.xaml</DependentUpon>
     </Compile>
+    <Page Include="HomeWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainResourceDictionary1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+    <Page Include="Views\GameOneView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\OptionsView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

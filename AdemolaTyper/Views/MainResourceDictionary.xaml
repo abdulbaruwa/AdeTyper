@@ -7,6 +7,11 @@
         <Views:TypeFaceView></Views:TypeFaceView>
     </DataTemplate>
 
+    <DataTemplate DataType="{x:Type ViewModels:WordViewModel}" x:Key="WordsTemplate2" >
+        <Views:WordView/>
+    </DataTemplate>
+
+
     <Style TargetType="Border" x:Key="WordActive">
         <Style.Triggers>
             <DataTrigger Binding="{Binding Path=StartAnimation}" Value="true">
