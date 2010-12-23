@@ -60,8 +60,8 @@ namespace AdemolaTyper.DesignData
 
         public static WordViewModel GetRandomWord(int wordLength)
         {
-            var homeWindowViewModel = new GameOneViewModel();
-            var wordViewModel = new WordViewModel(homeWindowViewModel);
+            var gameOneViewModel = new GameOneViewModel(new HomeWindowViewModel());
+            var wordViewModel = new WordViewModel(gameOneViewModel);
 
             wordViewModel.WordHeight = 15;
 

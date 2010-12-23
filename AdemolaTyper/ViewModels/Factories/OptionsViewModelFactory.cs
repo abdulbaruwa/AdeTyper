@@ -1,5 +1,7 @@
+using System;
 using System.Windows;
 using AdemolaTyper.DataSources;
+using MVVMLib;
 using MVVMLib.Helpers;
 using MVVMLib.MVVMHelpers;
 
@@ -17,6 +19,11 @@ namespace AdemolaTyper.ViewModels.Factories
                 return optionsVm;
             }
             return null;
+        }
+
+        public object CreateViewModel(ViewModelBase parentViewModel)
+        {
+            throw new NotImplementedException();
         }
 
         public object CreateViewModel(DependencyObject sender)

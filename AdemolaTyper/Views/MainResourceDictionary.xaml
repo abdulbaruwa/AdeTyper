@@ -1,8 +1,9 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:AdemolaTyper="clr-namespace:AdemolaTyper" xmlns:ViewModels="clr-namespace:AdemolaTyper.ViewModels" xmlns:Views="clr-namespace:AdemolaTyper.Views" xmlns:Converters="clr-namespace:AdemolaTyper.Converters">
 
-<Converters:BoolToFontColourConverter x:Key="BooltoColour"/>
-    
+    <Converters:BoolToFontColourConverter x:Key="BooltoColour"/>
+    <Converters:BoolToVisibilityConverter x:Key="boolToVisibilityConverter" />
+
     <DataTemplate DataType="{x:Type ViewModels:TypeFaceViewModel}" x:Key="LetterTemplate" >
         <Views:TypeFaceView></Views:TypeFaceView>
     </DataTemplate>

@@ -2,6 +2,7 @@ using System;
 using System.Windows;
 using AdemolaTyper.DataSources;
 using AdemolaTyper.DesignData;
+using MVVMLib;
 using MVVMLib.Helpers;
 using MVVMLib.MVVMHelpers;
 
@@ -23,6 +24,11 @@ namespace AdemolaTyper.ViewModels.Factories
                 homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource ());
             }
             return homeWindowVm;
+        }
+
+        public object CreateViewModel(ViewModelBase parentViewModel)
+        {
+            throw new NotImplementedException();
         }
 
         public object CreateViewModel(DependencyObject sender)

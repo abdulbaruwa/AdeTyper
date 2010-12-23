@@ -1,5 +1,7 @@
 using System;
+using System.Linq;
 using System.Timers;
+using AdemolaTyper.ViewModels.GameOne;
 using MVVMLib.Commands;
 using System.Windows.Input;
 using AdemolaTyper.Extensions;
@@ -22,6 +24,29 @@ namespace AdemolaTyper.ViewModels
         private string _typedLetter;
         private ObservableCollection<WordViewModel> _words = new ObservableCollection<WordViewModel>();
         private int _wordsPerMinute;
+        private GameOneOverViewModel _gameOneOverViewModel;
+
+        public GameOneViewModel(HomeWindowViewModel homeWindowViewModel)
+        {
+            HomeViewModel = homeWindowViewModel;   
+            _gameOneOverViewModel = new GameOneOverViewModel();
+            _gameOneOverViewModel.RePlayCurrentGame += GameOneOverViewModel_RePlayCurrentGame;
+            _gameOneOverViewModel.PlayNewGame += GameOneOverViewModel_PlayNewGame;
+        }
+
+        private void GameOneOverViewModel_PlayNewGame(object sender, EventArgs e)
+        {
+            ProcessCompleted = false;
+            _gameOneOverViewModel.ProcessCompleted = false;
+            Words.Clear();
+            LoadData();
+        }
+
+        private void GameOneOverViewModel_RePlayCurrentGame(object sender, EventArgs e)
+        {
+            ProcessCompleted = false;
+            _gameOneOverViewModel.ProcessCompleted = false;
+        }
 
         public DateTime? ProcessStartTime
         {
@@ -74,7 +99,6 @@ namespace AdemolaTyper.ViewModels
             }
         }
 
-
         public WordViewModel CurrentWord
         {
             get
@@ -121,8 +145,8 @@ namespace AdemolaTyper.ViewModels
                 OnPropertyChanged("WordsPerMinute");
             }
         }
-
-        public HomeWindowViewModel MainViewModel { get; set; }
+        
+        public HomeWindowViewModel HomeViewModel { get; set; }
 
         public ICommand ProcessStart
         {
@@ -139,8 +163,12 @@ namespace AdemolaTyper.ViewModels
         public void LoadData()
         {
             var gameDataSource = GetService<IGameOneDataSource>();
-            _words = new ObservableCollection<WordViewModel>();
-            gameDataSource.GetGameData(this).each(x => _words.Add(x));
+            gameDataSource.GetGameData(this).each(x => Words.Add(x));
+            //CurrentWord = Words.First();
+            //WordsPerMinute = 0;
+            CurrentWordIndex = 0;
+            SetFirstWord(Words.First());
+            StartGame();
         }
 
         private void keyPressed(Object key)
@@ -156,7 +184,19 @@ namespace AdemolaTyper.ViewModels
             if (CurrentWordIndex == Words.Count - 1 && CurrentWord.IsComplete)
             {
                 ProcessCompleted = true;
+                GameOneOver.AdjustedScore = WordsPerMinute.ToString();
+                GameOneOver.Score = WordsPerMinute.ToString();
+                GameOneOver.ProcessCompleted = true;
                 ProcessStartTime = null;
+            }
+        }
+
+        public GameOneOverViewModel GameOneOver
+        {
+            get { return _gameOneOverViewModel; }
+            set
+            {
+                _gameOneOverViewModel = value;
             }
         }
 
@@ -179,37 +219,15 @@ namespace AdemolaTyper.ViewModels
             _processStartTime = DateTime.Now;
             ProcessCompleted = false;
 
-            _timer.Elapsed += modifyWpm;
+            _timer.Elapsed += ModifyWpm;
             _timer.Interval = 100;
             _timer.Start();
         }
-
-        //public ICommand CurrentWordIsProcessed
-        //{
-        //    get
-        //    {
-        //        if (_currentWordIsProcessed == null)
-        //        {
-        //            _currentWordIsProcessed = new RelayCommand(param => CurrentWordProcessed());
-        //        }
-        //        return _currentWordIsProcessed;
-        //    }
-        //}
 
         private void CurrentWordProcessed()
         {
             if (CurrentWordIndex != _words.Count - 1)
             {
-                //if (ProcessStartTime.HasValue && CurrentWordIndex > 0)
-                //{
-                //    decimal seconds = DateTime.Now.Subtract(((DateTime) ProcessStartTime)).Seconds;
-                //    if (seconds > 0)
-                //    {
-                //        //WordsPerMinute = Convert.ToInt16(60 / ( seconds / Convert.ToDecimal(CurrentWordIndex)));
-                //        WordsPerMinute = Convert.ToInt16(Convert.ToDecimal(CurrentWordIndex)/seconds*60);
-
-                //    }                    
-                //}
                 CurrentWordIndex++;
                 CurrentWord.StartAnimation = false;
                 CurrentWord.WordProcessed -= CurrentWordWordProcessed;
@@ -224,7 +242,7 @@ namespace AdemolaTyper.ViewModels
             CurrentWordProcessed();
         }
 
-        private void modifyWpm(object sender, ElapsedEventArgs e)
+        private void ModifyWpm(object sender, ElapsedEventArgs e)
         {
             if (CurrentWordIndex != _words.Count - 1)
             {
@@ -241,6 +259,7 @@ namespace AdemolaTyper.ViewModels
                         int tempvalue = Convert.ToInt32(Convert.ToDecimal(CurrentWordIndex/2)/seconds*60);
                         if (tempvalue > 100) tempvalue = 100;
                         WordsPerMinute = tempvalue;
+                        HomeViewModel.WordsPerMinute = WordsPerMinute;
                     }
                 }
             }

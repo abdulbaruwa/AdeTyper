@@ -3,6 +3,7 @@ using System.Windows;
 using AdemolaTyper.DataSources;
 using AdemolaTyper.DesignData;
 using AdemolaTyper.ViewModels;
+using MVVMLib;
 using MVVMLib.MVVMHelpers;
 
 namespace AdemolaTyperTest.ViewModels.HomeWindow
@@ -22,6 +23,11 @@ namespace AdemolaTyperTest.ViewModels.HomeWindow
             homeWindowVm.ServiceLocator.RegisterService<IOptionsDataSource>(new DesignTimeOptionsDataSource());
             homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource());
             return homeWindowVm;
+        }
+
+        public object CreateViewModel(ViewModelBase parentViewModel)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

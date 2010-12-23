@@ -42,7 +42,7 @@
                 <!--<ProgressBar Height="17.5" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,5,1"
                              Background="#FF778FB9" Visibility="{Binding DisplayProgressBar, Converter={StaticResource boolToVisibilityConverter}}" 
                              Value="{Binding WordsPerMinute}"/>-->
-                <Label Content="{Binding WordsPerMinute}"></Label>
+                <Label Content="{Binding WordsPerMinute,Mode=TwoWay}"></Label>
             </Grid>
 
             <CustomControls:XSButton Grid.Row="0" HorizontalAlignment="Right"  Margin="0,4,8,6" Click="Form_Close" Width="16" Height="16" FontSize="8" Background="{DynamicResource brushCloseButton}" Foreground="{DynamicResource brushCloseButtonForeground}" >

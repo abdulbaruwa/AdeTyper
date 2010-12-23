@@ -44,7 +44,8 @@ namespace AdemolaTyperTest.ViewModels.GameOne
         [TestMethod]
         public void Should_calulate_and_return_type_speed()
         {
-            var viewModel = new GameOneViewModelTestFactory().CreateViewModel() as GameOneViewModel;
+            var homeWindowViewModel = new HomeWindowViewModel();
+            var viewModel = new GameOneViewModelTestFactory().CreateViewModel(homeWindowViewModel) as GameOneViewModel;
             viewModel.ProcessStart.Execute(null);
             var letter = viewModel.Words[0].Letters[0].Letter;
             var totalletters = viewModel.Words.Sum(x => x.Letters.Count());
@@ -55,7 +56,7 @@ namespace AdemolaTyperTest.ViewModels.GameOne
                 viewModel.KeyPressReceivedCommand.Execute(letter);
                 Thread.Sleep(5);
             }
-
+            Assert.IsTrue(homeWindowViewModel.WordsPerMinute > 0);
             Assert.IsTrue(viewModel.WordsPerMinute > 0);
         }
     }

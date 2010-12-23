@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="BDD\BDDSpecExtensions.cs" />
     <Compile Include="BDD\ContextSpec.cs" />
+    <Compile Include="ViewModels\GameOne\GameOneOverViewModelTestFixture.cs" />
     <Compile Include="ViewModels\GameOne\GameOneViewModelTestFactory.cs" />
     <Compile Include="ViewModels\GameOne\WhenProcessingGameOneViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

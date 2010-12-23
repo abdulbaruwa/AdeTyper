@@ -19,6 +19,7 @@ namespace AdemolaTyper.ViewModels
         private ObservableCollection<WorkspaceViewModel> _workspaces;
         private RelayCommand _currentWordIsProcessed;
         private int _currentWordIndex;
+        private int _wordsPerMinute;
 
         public HomeWindowViewModel()
         {
@@ -93,7 +94,18 @@ namespace AdemolaTyper.ViewModels
                 return _loadGameOneCommand;
             }
         }
-        
+
+        public int WordsPerMinute
+        {
+            get { return _wordsPerMinute; }
+
+            set
+            {
+                _wordsPerMinute = value;
+                OnPropertyChanged("WordsPerMinute");
+            }
+        }
+
         private void MenuViewModelRequestClose(object sender, EventArgs e)
         {
 
@@ -102,9 +114,12 @@ namespace AdemolaTyper.ViewModels
         private void LoadGameOne()
         {
             if (Workspace is GameOneViewModel) return;
-            _gameOneViewModel = new GameOneViewModel();
+            _gameOneViewModel = new GameOneViewModel(this);
+            _gameOneViewModel.ServiceLocator.RegisterService(GetService<IGameOneDataSource>());
+
             GetService<IGameOneDataSource>().GetGameData().each(x => _gameOneViewModel.AddWord(x));
             _gameOneViewModel.SetFirstWord(_gameOneViewModel.Words.First());
+            _gameOneViewModel.ProcessStart.Execute(null);
             Workspace = _gameOneViewModel;
         }
 

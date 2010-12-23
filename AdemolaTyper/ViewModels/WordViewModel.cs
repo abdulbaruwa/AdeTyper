@@ -46,7 +46,6 @@ namespace AdemolaTyper.ViewModels
         public WordViewModel()
         {
             _letters = new ObservableCollection<TypeFaceViewModel>();
-            _gameViewModel = new GameOneViewModel();
         }
 
         public ObservableCollection<TypeFaceViewModel> Letters

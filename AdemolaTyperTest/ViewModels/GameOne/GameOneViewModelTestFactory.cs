@@ -4,6 +4,7 @@ using System.Windows;
 using AdemolaTyper.DataSources;
 using AdemolaTyper.DesignData;
 using AdemolaTyper.ViewModels;
+using MVVMLib;
 using MVVMLib.MVVMHelpers;
 
 namespace AdemolaTyperTest.ViewModels.GameOne
@@ -17,7 +18,12 @@ namespace AdemolaTyperTest.ViewModels.GameOne
 
         public object CreateViewModel()
         {
-            var gameOneViewModel = new GameOneViewModel();
+            return CreateViewModel(new HomeWindowViewModel());
+        }
+
+        public object CreateViewModel(ViewModelBase parentViewModel)
+        {
+            var gameOneViewModel = new GameOneViewModel(parentViewModel as HomeWindowViewModel);
             gameOneViewModel.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource());
             gameOneViewModel.CurrentWordIndex = 0;
             gameOneViewModel.LoadData();

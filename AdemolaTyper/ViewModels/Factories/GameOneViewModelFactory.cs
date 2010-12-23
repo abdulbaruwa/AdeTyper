@@ -1,6 +1,8 @@
+using System;
 using System.Windows;
 using AdemolaTyper.DataSources;
 using AdemolaTyper.Extensions;
+using MVVMLib;
 using MVVMLib.Helpers;
 using MVVMLib.MVVMHelpers;
 
@@ -10,7 +12,7 @@ namespace AdemolaTyper.ViewModels.Factories
     {
         public object CreateViewModel()
         {
-            GameOneViewModel gameOneViewModel = new GameOneViewModel();
+            GameOneViewModel gameOneViewModel = new GameOneViewModel(new HomeWindowViewModel());
             IGameOneDataSource gameDataSource;
             if(Designer.IsDesignMode)
             {
@@ -21,6 +23,11 @@ namespace AdemolaTyper.ViewModels.Factories
             }
         
             return null;
+        }
+
+        public object CreateViewModel(ViewModelBase parentViewModel)
+        {
+            throw new NotImplementedException();
         }
 
         public object CreateViewModel(DependencyObject sender)

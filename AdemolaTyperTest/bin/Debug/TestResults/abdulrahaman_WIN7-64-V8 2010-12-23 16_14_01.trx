@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b425cbb5-eb80-4ba4-a06e-d7ccc86f569f" name="abdulrahaman@WIN7-64-V8 2010-12-23 16:14:01" runUser="Win7-64-V8\abdulrahaman" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1560943-7018-4910-abf8-da8c7b6eda55">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="abdulrahaman_WIN7-64-V8 2010-12-23 16_14_01" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-23T16:14:01.7680000+00:00" queuing="2010-12-23T16:14:02.0450000+00:00" start="2010-12-23T16:14:02.2320000+00:00" finish="2010-12-23T16:14:04.0990000+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_close_the_GameOverDialog_when_the_Play_Again_is_clicked" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="a1dcdfb6-d7eb-b745-875e-b8daf298340d">
+      <Execution timeOut="1800000" id="7250249d-5304-4d23-8a5b-5e2e964dc2db" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.GameOneOverViewModelTestFixture, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_close_the_GameOverDialog_when_the_Play_Again_is_clicked" />
+    </UnitTest>
+    <UnitTest name="Should_close_the_GameOverDialog_when_the_Play_New_button_is_clicked" storage="d:\development\adetyper\adetyper\ademolatypertest\bin\debug\ademolatypertest.dll" id="8d706d49-a785-8b8d-1159-2c02431993b4">
+      <Execution timeOut="1800000" id="9fdf9b50-c48c-47e3-90ac-07df9e78e365" />
+      <TestMethod codeBase="D:/Development/AdeTyper/AdeTyper/AdemolaTyperTest/bin/Debug/AdemolaTyperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdemolaTyperTest.ViewModels.GameOne.GameOneOverViewModelTestFixture, AdemolaTyperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_close_the_GameOverDialog_when_the_Play_New_button_is_clicked" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a1dcdfb6-d7eb-b745-875e-b8daf298340d" executionId="7250249d-5304-4d23-8a5b-5e2e964dc2db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d706d49-a785-8b8d-1159-2c02431993b4" executionId="9fdf9b50-c48c-47e3-90ac-07df9e78e365" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7250249d-5304-4d23-8a5b-5e2e964dc2db" testId="a1dcdfb6-d7eb-b745-875e-b8daf298340d" testName="Should_close_the_GameOverDialog_when_the_Play_Again_is_clicked" computerName="WIN7-64-V8" duration="00:00:00.8268408" startTime="2010-12-23T16:14:02.3590000+00:00" endTime="2010-12-23T16:14:03.2580000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7250249d-5304-4d23-8a5b-5e2e964dc2db">
+    </UnitTestResult>
+    <UnitTestResult executionId="9fdf9b50-c48c-47e3-90ac-07df9e78e365" testId="8d706d49-a785-8b8d-1159-2c02431993b4" testName="Should_close_the_GameOverDialog_when_the_Play_New_button_is_clicked" computerName="WIN7-64-V8" duration="00:00:00.7613100" startTime="2010-12-23T16:14:03.2620000+00:00" endTime="2010-12-23T16:14:04.0240000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fdf9b50-c48c-47e3-90ac-07df9e78e365">
+    </UnitTestResult>
+  </Results>
+</TestRun>

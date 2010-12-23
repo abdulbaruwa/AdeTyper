@@ -6,5 +6,6 @@ namespace MVVMLib.MVVMHelpers
     {
         object CreateViewModel(DependencyObject sender);
         object CreateViewModel();
+        object CreateViewModel(ViewModelBase parentViewModel);
     }
 }
