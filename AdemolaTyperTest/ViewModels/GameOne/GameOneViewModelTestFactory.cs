@@ -26,6 +26,7 @@ namespace AdemolaTyperTest.ViewModels.GameOne
             var gameOneViewModel = new GameOneViewModel(parentViewModel as HomeWindowViewModel);
             gameOneViewModel.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource());
             gameOneViewModel.CurrentWordIndex = 0;
+            gameOneViewModel.RefreshGameData();
             gameOneViewModel.LoadData();
             gameOneViewModel.SetFirstWord(gameOneViewModel.Words.First());
             return gameOneViewModel;
