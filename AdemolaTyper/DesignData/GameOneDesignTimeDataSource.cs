@@ -63,7 +63,7 @@ namespace AdemolaTyper.DesignData
             var gameOneViewModel = new GameOneViewModel(new HomeWindowViewModel());
             var wordViewModel = new WordViewModel(gameOneViewModel);
 
-            wordViewModel.WordHeight = 15;
+            wordViewModel.WordHeight = 17;
 
             string alphabets = "abdcdefghijklmnopqrstuvwxyz";
             var random = new Random();
@@ -71,7 +71,7 @@ namespace AdemolaTyper.DesignData
             for (int i = 0; i < wordLength; i++)
             {
                 char letter = alphabets[random.Next(alphabets.Length)];
-                wordViewModel.Letters.Add(new TypeFaceViewModel(letter, 14));
+                wordViewModel.Letters.Add(new TypeFaceViewModel(letter, 16));
             }
 
             return wordViewModel;

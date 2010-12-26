@@ -74,10 +74,6 @@
                 </Border>
             </Border>
 
-            <StackPanel Grid.Row="3" Background="#F04A5690" >
-                <Button x:Name="StartButton" Margin="0,2,20,2" Width="90" Content="_Get Set,  GO!" Command="{Binding ProcessStart}" IsTabStop="False" Click="StartButton_Click" />
-            </StackPanel>
-
             <!--Footer Section-->
             <TextBlock Grid.Row="4" Margin="1" TextAlignment="Center" Foreground="White" />
             <!--Resize Section-->
