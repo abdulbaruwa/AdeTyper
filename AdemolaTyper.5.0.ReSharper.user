@@ -372,7 +372,6 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:OptionsDataSource.cs" caret="0" fromTop="0" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DataSources/f:IGameOneDataSource.cs" caret="185" fromTop="6" />
       <File id="05EC598E-44D2-4784-85A2-8D78D442E910/d:MVVMHelpers/f:ViewModelLoader.cs" caret="1253" fromTop="22" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml.cs" caret="4421" fromTop="24" />
@@ -383,32 +382,28 @@
       <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/f:WordViewModelTests.cs" caret="3024" fromTop="40" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:WordViewModel.cs" caret="3399" fromTop="13" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Converters/f:BoolToVisibilityConverter.cs" caret="161" fromTop="6" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml" caret="2870" fromTop="15" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:MainResourceDictionary1.xaml" caret="1003" fromTop="16" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneOverViewModelFactory.cs" caret="942" fromTop="31" />
       <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:WhenProcessingGameOneViewModel.cs" caret="928" fromTop="8" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml.cs" caret="0" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="1464" fromTop="14" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/d:GameOne/f:GameOneOverView.xaml" caret="3324" fromTop="16" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="262" fromTop="7" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:Factories/f:GameOneViewModelFactory.cs" caret="713" fromTop="18" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="1404" fromTop="36" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="0" fromTop="0" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MenuView.xaml" caret="1034" fromTop="16" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:GameOne/f:GameOneOverViewModel.cs" caret="426" fromTop="14" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:HomeWindowViewModel.cs" caret="3580" fromTop="30" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeFaceViewModel.cs" caret="235" fromTop="6" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Extensions/f:EnumerableExtensions.cs" caret="268" fromTop="8" />
       <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:GameOneOverViewModelTestFixture.cs" caret="455" fromTop="14" />
       <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:GameOneViewModelTestFactory.cs" caret="972" fromTop="25" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="1904" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml" caret="5436" fromTop="11" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="1521" fromTop="12" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:TypeFaceView.xaml" caret="0" fromTop="0" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:TypeFaceViewModel.cs" caret="86" fromTop="3" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:MainResourceDictionary.xaml" caret="752" fromTop="9" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:Views/f:GameOneView.xaml" caret="1286" fromTop="15" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:GameOne/f:GameOneOverViewModel.cs" caret="1336" fromTop="40" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:GameOne/f:GameOneOverViewModel.cs" caret="1584" fromTop="50" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:GameOne/f:GameOneOverViewModel.cs" caret="1472" fromTop="30" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/d:GameOne/f:GameOneOverViewModel.cs" caret="369" fromTop="0" />
-      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:App.xaml" caret="186" fromTop="1" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="5620" fromTop="29" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="5398" fromTop="27" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="6235" fromTop="38" />
@@ -434,6 +429,11 @@
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="2560" fromTop="46" />
       <File id="B1BB766F-C96A-4B16-9605-A74A4564E390/d:ViewModels/d:GameOne/f:GameOneViewModelTestFactory.cs" caret="977" fromTop="25" />
       <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:ViewModels/f:GameOneViewModel.cs" caret="1908" fromTop="30" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/f:HomeWindow.xaml" caret="5490" fromTop="15" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="1062" fromTop="27" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="641" fromTop="19" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="2542" fromTop="35" />
+      <File id="00BABC52-57AD-4DB4-8724-14CC832B9B7D/d:DesignData/f:GameOneDesignTimeDataSource.cs" caret="2864" fromTop="43" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
