@@ -13,7 +13,6 @@
         <ItemsControl Grid.Row="1" ItemsSource="{Binding Words}" ItemTemplate="{StaticResource WordsTemplate2}" Grid.ColumnSpan="2" Name="TypeSurface" >
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <!--<view:BubbleCanvas Loaded="HandleBubbleCanvasLoaded" />-->
                     <WrapPanel/>
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>

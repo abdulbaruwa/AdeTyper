@@ -27,7 +27,6 @@ namespace AdemolaTyper.ViewModels
             _menuViewModel.RequestClose += MenuViewModelRequestClose;
             _menuViewModel.RequestStartGameOne += MenuViewModel_RequestStartGameOne;    
             _menuViewModel.ServiceLocator.RegisterService(GetService<IOptionsDataSource>());
-
             
             //Set current workspace
             Workspaces.Add(_menuViewModel);

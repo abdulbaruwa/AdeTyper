@@ -1,5 +1,15 @@
-bin/*.dll
-**/bin/*.dll
-**/*/bin/*.dll
-**/**/bin/*.dll
-*.Resharper
+# Compiled source #
+###################
+*.com
+*.class
+*.exe
+*.o
+*.so
+*.ReSharper
+*.ReSharper.user
+
+# Folders #
+###################
+bin/
+obj/
+_ReSharper.AdemolaTyper/

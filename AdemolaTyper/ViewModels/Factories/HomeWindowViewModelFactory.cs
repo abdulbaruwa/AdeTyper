@@ -16,12 +16,12 @@ namespace AdemolaTyper.ViewModels.Factories
             if(Designer.IsDesignMode)
             {
                 homeWindowVm.ServiceLocator.RegisterService<IOptionsDataSource>(new DesignTimeOptionsDataSource());
-                homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource());
+                homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDataSource());
             }
             else
             {
                 homeWindowVm.ServiceLocator.RegisterService<IOptionsDataSource>(new OptionsDataSource());
-                homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource ());
+                homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDataSource ());
             }
             return homeWindowVm;
         }

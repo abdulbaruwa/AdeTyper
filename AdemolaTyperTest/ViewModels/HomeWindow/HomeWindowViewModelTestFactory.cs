@@ -21,7 +21,7 @@ namespace AdemolaTyperTest.ViewModels.HomeWindow
         {
             var homeWindowVm = new HomeWindowViewModel();
             homeWindowVm.ServiceLocator.RegisterService<IOptionsDataSource>(new DesignTimeOptionsDataSource());
-            homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDesignTimeDataSource());
+            homeWindowVm.ServiceLocator.RegisterService<IGameOneDataSource>(new GameOneDataSource());
             return homeWindowVm;
         }
 

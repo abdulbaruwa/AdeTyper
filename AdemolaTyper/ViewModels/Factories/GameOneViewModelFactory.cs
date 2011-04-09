@@ -16,7 +16,7 @@ namespace AdemolaTyper.ViewModels.Factories
             IGameOneDataSource gameDataSource;
             if(Designer.IsDesignMode)
             {
-                gameDataSource = new DesignData.GameOneDesignTimeDataSource();
+                gameDataSource = new DesignData.GameOneDataSource();
                 gameOneViewModel.ServiceLocator.RegisterService<IGameOneDataSource>(gameDataSource);
                 gameDataSource.GetGameData().each(x => gameOneViewModel.AddWord(x));
                 return gameOneViewModel;

@@ -39,3 +39,4 @@ D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\bin\Debug\AdemolaTyper.pdb
 D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\bin\Debug\MVVMLib.pdb
 D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.dll
 D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\obj\Debug\AdemolaTyperTest.pdb
+D:\Development\AdeTyper\AdeTyper\AdemolaTyperTest\bin\Debug\DesignData\GameOneData.txt

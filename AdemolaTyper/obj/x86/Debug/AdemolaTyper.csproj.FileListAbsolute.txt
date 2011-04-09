@@ -159,3 +159,5 @@ D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\AdemolaTyper.exe.manifes
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\AdemolaTyper.application
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper.exe.manifest
 D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper.application
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\bin\Debug\DesignData\GameOneData.txt
+D:\Development\AdeTyper\AdeTyper\AdemolaTyper\obj\x86\Debug\AdemolaTyper_Content.g.cs

@@ -15,7 +15,7 @@ namespace AdemolaTyperTest.ViewModels
         {
             //Arrange
             var viewModel = new GameOneViewModel(new HomeWindowViewModel());
-            viewModel.Words = GameOneDesignTimeDataSource.InitializeDummyData();
+            viewModel.Words = GameOneDataSource.InitializeDummyData();
 
             //Act             
             
@@ -36,7 +36,7 @@ namespace AdemolaTyperTest.ViewModels
         public void ShouldStoreTheCurrentTypedLetter()
         {
             var viewModel = new GameOneViewModel(new HomeWindowViewModel());
-            viewModel.Words = GameOneDesignTimeDataSource.InitializeDummyData();
+            viewModel.Words = GameOneDataSource.InitializeDummyData();
 
             viewModel.CurrentWord = viewModel.Words[0];
             viewModel.KeyPressReceivedCommand.Execute("b");
@@ -49,7 +49,7 @@ namespace AdemolaTyperTest.ViewModels
         public void Should_Pass_The_letter_to_the_current_word_viewmodel()
         {
             var viewModel = new GameOneViewModel(new HomeWindowViewModel());
-            viewModel.Words = GameOneDesignTimeDataSource.InitializeDummyData();
+            viewModel.Words = GameOneDataSource.InitializeDummyData();
 
             viewModel.CurrentWord = viewModel.Words[0];
             var firstLetterOfFirstWord = viewModel.Words[0].Letters[0].Letter;
