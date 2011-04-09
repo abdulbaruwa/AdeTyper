@@ -2,7 +2,9 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:MVVMHelpers="clr-namespace:MVVMLib.MVVMHelpers;assembly=MVVMLib" xmlns:Factories="clr-namespace:AdemolaTyper.ViewModels.Factories" xmlns:GameOne="clr-namespace:AdemolaTyper.Views.GameOne" MVVMHelpers:ViewModelLoader.FactoryType="{x:Type Factories:GameOneViewModelFactory}"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:MVVMHelpers="clr-namespace:MVVMLib.MVVMHelpers;assembly=MVVMLib" xmlns:Factories="clr-namespace:AdemolaTyper.ViewModels.Factories" 
+             xmlns:GameOne="clr-namespace:AdemolaTyper.Views.GameOne" 
+             MVVMHelpers:ViewModelLoader.FactoryType="{x:Type Factories:GameOneViewModelFactory}"
              mc:Ignorable="d" 
              TextInput="GameOneView_TextInput"
              d:DesignHeight="300" d:DesignWidth="300" Background="#FFD6DFE9">
@@ -10,6 +12,7 @@
         <ResourceDictionary Source="MainResourceDictionary.xaml"/>
     </UserControl.Resources>
         <Grid>
+        <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
         <ItemsControl Grid.Row="1" ItemsSource="{Binding Words}" ItemTemplate="{StaticResource WordsTemplate2}" Grid.ColumnSpan="2" Name="TypeSurface" >
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -17,7 +20,7 @@
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
         </ItemsControl>
-
+        </ScrollViewer>
         <GameOne:GameOneOverView  DataContext="{Binding Path=GameOneOver}" Width="170" Height="180" Visibility="{Binding ProcessCompleted, Converter={StaticResource boolToVisibilityConverter}}">
          
             

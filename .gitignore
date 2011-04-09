@@ -12,4 +12,10 @@
 ###################
 bin/
 obj/
+AdemolaTyper/bin/
+AdemolaTyper/obj/
+AdemolaTyperTest/bin/
+AdemolaTyperTest/obj/
+MVVMLib/bin/
+MVVMLib/obj/
 _ReSharper.AdemolaTyper/
