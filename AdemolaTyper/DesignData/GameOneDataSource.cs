@@ -24,7 +24,7 @@ namespace AdemolaTyper.DesignData
             var fileData = File.ReadAllText(fileName);
             var v = (char) 32;
             var result = fileData.Split(v);
-
+            var durationStart = DateTime.Now;
             var firstWord = CreateWordViewModelFromWordString(result[0]);
             firstWord.StartAnimation = true;
             words.Add(firstWord);
@@ -35,6 +35,8 @@ namespace AdemolaTyper.DesignData
                 words.Add(CreateWordViewModelFromWordString(result[i]));
                 words.Add(GetSpaceLetterWord());
             }
+            var duration = DateTime.Now.Subtract(durationStart);
+
             return words;
         }
 
